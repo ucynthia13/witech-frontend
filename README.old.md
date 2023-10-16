@@ -1,2 +1,0 @@
-# WITech-Frontend
-WithIn-Tech
