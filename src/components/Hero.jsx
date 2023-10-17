@@ -1,61 +1,34 @@
-import React, { useEffect } from 'react';
-import image1 from '../assets/image1.jpg';
-import image2 from '../assets/image2.jpg';
-import image3 from '../assets/image3.jpg';
-import image4 from '../assets/image4.jpg';
-
+import React from 'react'
+import image1 from '../assets/image1.jpg'
 function Hero() {
-  useEffect(() => {
-
-    const carousel = document.getElementById('carouselIndicator')
-    
-    const carouselInstance = new window.bootstrap.Carousel(carousel)
-    
-    const interval = setInterval(() => {
-      //advance bootstroa carrousel     
-      carouselInstance.next()
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className='container'>
-      <div className='row'>
-        <div className='col-6'>
-          <p className='h1'>Time To Empowering<span className='h2 d-grid'>Tomorrow's</span></p>
-          <p>Empowering the next generation of innovators with 
-            <span className='d-block'>Comprehensive Tech Education, Fostering Excellence, and </span>
-            <span className='d-block'>Enriching Communities Through Knowledge Sharing and <span className='d-block'>Collaboration</span></span>
-          </p>
+      <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
+        <div className='col-10 col-sm-8 col-lg-6'>
+          <img src={image1} className='d-block mx-lg-auto img-fluid rounded'></img>
         </div>
-        <div className='col-6'>
-          <div id='carouselIndicator' className='carousel slide' data-ride='carousel'>
-            <ol className='carousel-indicators'>
-              <li data-target='#carouselIndicator' data-slide-to='0' className='active'></li>
-              <li data-target='#carouselIndicator' data-slide-to='1'></li>
-              <li data-target='#carouselIndicator' data-slide-to='2'></li>
-              <li data-target='#carouselIndicator' data-slide-to='3'></li>
-            </ol>
-            <div className='carousel-inner'>
-              <div className='carousel-item active'>
-                <img className='d-block w-100' src={image1} alt='students' />
-              </div>
-              <div className='carousel-item'>
-                <img className='d-block w-100' src={image2} alt='students' />
-              </div>
-              <div className='carousel-item'>
-                <img className='d-block w-100' src={image3} alt='students' />
-              </div>
-              <div className='carousel-item'>
-                <img className='d-block w-100' src={image4} alt='students' />
-              </div>
+        <div className='col-lg-6'>
+          <div className='lc-block mb-3'>
+            <div editable='rich'>
+              <h2 className='fw-bold display-5 mb-4'>Time To Empowering Tomorrow's </h2>
             </div>
+          </div>
+          <div className='lc-block mb-3'>
+            <div editable='rich'>
+              <p className='lead'>
+                empowering the next generation of innovators with comprehensive tech education, fostering excellence, and enriching communities 
+                through knowledge sharing and collaboration
+              </p>
+            </div>
+          </div>
+          <div className='lc-block d-grid gap-2 md-flex d-flex justify-content-md-left mt-4 pt-4'>
+            <a className='btn btn-success px-4 me-md-4' href='#' role='button'>Get Started</a>
+            <a className='btn btn-outline-secondary px-4' href='#' role='button'>Watch Video</a>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
