@@ -1,11 +1,13 @@
 import Bio from './components/Bio';
 import BioTwo from './components/BioTwo';
 import Community from './components/Community';
+import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import Partners from './components/Partners';
 import Services from './components/Services ';
+import Stories from './components/Stories';
 import Team from './components/Team';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Team />
       <Gallery />
       <Community />
+      <Stories />
+      <Contact />
     </div>
   );
 }

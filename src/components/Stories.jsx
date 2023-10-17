@@ -1,11 +1,11 @@
 import React from 'react'
 import image2 from '../assets/image2.jpg'
-function Services () {
+function Stories () {
   return (
     <div className='container mt-4'>
         <div className='row'>
-            <h5 className='text-center mt-5'>Services</h5>
-            <h1 className='h2 text-center mb-4 pb-4 fw-bold'>Our Special Services</h1>
+            <h5 className='text-center mt-5 fw-light'>Stories</h5>
+            <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2'>Blog</span></h1>
 
             <div className='col-lg-4 mt-4'>
                 <div className='card'>
@@ -50,4 +50,4 @@ function Services () {
   )
 }
 
-export default Services 
+export default Stories

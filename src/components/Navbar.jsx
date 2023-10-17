@@ -20,7 +20,7 @@ function Navbar() {
                 <li className="nav-item">
                     <a className="nav-link mx-4" href="#">Contact</a>
                 </li>
-                <button className='btn btn-success border-0 rounded-pill mx-4 px-4'>Join Us</button>
+                <button className='btn btn-outline-secondary rounded mx-4 px-4'>Join Us</button>
             </ul>
         </div>
     </nav>

@@ -26,7 +26,7 @@ function Community() {
 
   const divs = Array.from({ length: 9 }, (_, index) => (
     <div key={index} className='image-div p-3'>
-      <img src={images[activeImage]} className='d-block w-100 mx-3 image-border' alt={`Image ${index + 1}`} />
+      <img src={images[activeImage]} className='d-block w-100 mx-3' alt={`Image ${index + 1}`} style={{ borderRadius: '0px 20px 0px 20px' }}/>
     </div>
   ));
 
