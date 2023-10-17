@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Bio from './components/Bio';
+import BioTwo from './components/BioTwo';
+import Community from './components/Community';
+import Contact from './components/Contact';
+import Gallery from './components/Gallery';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar'
+import Partners from './components/Partners';
+import Services from './components/Services ';
+import Stories from './components/Stories';
+import Team from './components/Team';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <Partners />
+      <Services />
+      <Bio />
+      <BioTwo />
+      <Team />
+      <Gallery />
+      <Community />
+      <Stories />
+      <Contact />
     </div>
   );
 }
