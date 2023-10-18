@@ -31,7 +31,7 @@ function Community() {
   ));
 
   return (
-    <div className='container mt-5'>
+    <div className='container'>
         <style>{customStyles}</style>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <p className='fw-light h6 text-center'>COMMUNITY</p>
@@ -57,6 +57,7 @@ function Community() {
           <a className='btn btn-outline-secondary px-4 py-2 mt-4' href='#'>Learn More</a>
         </div>
       </div>
+      <hr className='mt-4'></hr>
     </div>
   );
 }

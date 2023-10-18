@@ -10,7 +10,7 @@ function Bio() {
             <p className='lead'>Empowering tommorrow's Tech Leaders with quality education, comphrehensive software training programs, cutting edge curricula, and a commitment to excellence</p>
             <div className='row'>
                 <div className='col'>
-                <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3'>2 +</span> <span className='d-block fw-light'>years of</span><span className='d-block fw-light'>experience</span></p>
+                <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3'>2+</span> <span className='d-block fw-light'>years of</span><span className='d-block fw-light'>experience</span></p>
                 </div>
                 <div className='col'>
                 <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3'>100</span> <span className='d-block fw-light'>Experienced</span><span className='d-block fw-light'>Mentors</span></p>

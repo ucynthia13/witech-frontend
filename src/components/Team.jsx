@@ -79,7 +79,7 @@ function Team() {
       }
     `
   return (
-    <div className='container mt-4'>
+    <div className='container mt-5'>
         <style>{styles}</style>
         <div className='row align-items-center g-5 d-flex justify-content-center'>
             <p className='mt-5 fw-light text-center'>Expert people</p>
@@ -92,6 +92,7 @@ function Team() {
                             <div className='card'>
                                 <img className='card-img-top img-fluid mx-lg-auto rounded' src={image3}></img>
                                 <p className='card-title text-center pt-3 pb-2'>Mike Yvzan</p>
+                                
                             </div>
                         </div>
                         <div className='backside'>
@@ -140,6 +141,7 @@ function Team() {
                 </div>
             </div>
         </div>
+        <hr className='mt-5'></hr>
     </div>
   )
 }

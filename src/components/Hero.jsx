@@ -1,16 +1,47 @@
 import React from 'react'
 import image1 from '../assets/image1.jpg'
 function Hero() {
+  const styles= `
+    .border-effect {
+      position: relative;
+    }
+    
+    .border-effect::before,
+    .border-effect::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 3px solid transparent;
+    }
+    
+    .border-effect::before {
+      top: 0;
+      left: 0;
+      border-right-color: red; /* Adjust the color as needed */
+      border-bottom-color: red; /* Adjust the color as needed */
+    }
+    
+    .border-effect::after {
+      bottom: 0;
+      right: 0;
+      border-left-color: blue; /* Adjust the color as needed */
+      border-top-color: blue; /* Adjust the color as needed */
+    }
+
+    
+  `
   return (
     <div className='container'>
+      <style>{styles}</style>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6'>
-          <img src={image1} className='d-block mx-lg-auto img-fluid rounded'></img>
+          <img src={image1} className='d-block mx-lg-auto img-fluid rounded border-effect p-3'></img>
         </div>
         <div className='col-lg-6'>
           <div className='lc-block mb-3'>
             <div editable='rich'>
-              <h2 className='fw-bold display-5 mb-4'>Time To Empowering Tomorrow's </h2>
+              <h2 className='fw-bold display-5 mb-4 animate__animated animate__bounce animate__slower intro text-color'>Time To Empowering Tomorrow's </h2>
             </div>
           </div>
           <div className='lc-block mb-3'>
