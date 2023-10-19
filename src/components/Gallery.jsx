@@ -22,7 +22,7 @@ function Gallery() {
     <div className='container mt-5 pt-5'>
         <style>{styles}</style>
         <div className='row'>
-            <p className='h2 fw-bold'>Explore<span className='d-block mb-3'>Full Gallery</span></p>
+            <p className='h2 fw-bold heading-color'>Explore<span className='d-block mb-3'>Full Gallery</span></p>
             <div className='hover col-lg-4'>
                 <div className='card mb-3 hover-effect'>
                     <img src={image1} className='card-img-top img-fluid'></img>

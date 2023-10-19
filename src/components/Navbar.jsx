@@ -29,7 +29,7 @@ function Navbar() {
     <nav className='navbar navbar-expand-lg mt-3'>
         <style>{styles}</style>
         <div className='collapse navbar-collapse d-flex justify-content-center'>
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav mr-auto fw-bold">
                 <li className="nav-item active">
                     <a className="nav-link mx-4 link-with-underline" href="#">Home</a>
                 </li>
@@ -45,7 +45,7 @@ function Navbar() {
                 <li className="nav-item">
                     <a className="nav-link mx-4 link-with-underline" href="#">Contact</a>
                 </li>
-                <button className='btn btn-outline-secondary rounded mx-4 px-4'>Join Us</button>
+                <button className='btn btn-outline-secondary rounded-pill mx-4 mb-2 px-5'>Join Us</button>
             </ul>
         </div>
     </nav>

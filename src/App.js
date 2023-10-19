@@ -13,6 +13,7 @@ import Team from './components/Team';
 import "@fontsource/poppins";
 import 'animate.css';
 
+
 function App() {
   return (
     <div className="App">

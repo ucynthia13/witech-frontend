@@ -2,13 +2,14 @@ import React from 'react';
 import image2 from '../assets/image2.jpg';
 
 const styles = `
-.hover-effect {
+  .hover-effect {
     transition: transform 0.2s, box-shadow 0.2s; 
+    box-shadow: 0 5px 5px 5px rgba(75, 0, 130, 0.2);
   }
   
   .hover-effect:hover {
     transform: scale(1.05); 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 5px 5px 5px rgba(75, 0, 130, 0.2);
   }
   
 `
@@ -26,11 +27,11 @@ function Services() {
             <img src={image2} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Training in Schools</h5>
-              <p className='lead text-center'>
+              <p className='lead text-center fw-light'>
                 Under the leadership of her excellency the first lady of rwanda, Mrs. Jeanette Kagame, In 2003, Imbuto Foundation
               </p>
               <div className='d-flex justify-content-center'>
-                <a className='btn btn-outline-secondary my-2' href='#'>
+                <a className='btn btn-outline-secondary mt-2 mb-3 button-background px-4' href='#'>
                   Learn More
                 </a>
               </div>
@@ -43,11 +44,11 @@ function Services() {
             <img src={image2} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Tutoring Students</h5>
-              <p className='lead text-center'>
+              <p className='lead text-center fw-light'>
                 Under the leadership of her excellency the first lady of rwanda, Mrs. Jeanette Kagame, In 2003, Imbuto Foundation
               </p>
               <div className='d-flex justify-content-center'>
-                <a className='btn btn-outline-secondary my-2' href='#'>
+                <a className='btn btn-outline-secondary mt-2 mb-3 button-background px-4' href='#'>
                   Learn More
                 </a>
               </div>
@@ -55,16 +56,16 @@ function Services() {
           </div>
         </div>
 
-        <div className='col-lg-4 mt-4'>
+        <div className='col-lg-4 mt-4 '>
           <div className='card hover-effect'>
             <img src={image2} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Training Staff Computer</h5>
-              <p className='lead text-center'>
+              <p className='lead text-center fw-light'>
                 Under the leadership of her excellency the first lady of rwanda, Mrs. Jeanette Kagame, In 2003, Imbuto Foundation
               </p>
               <div className='d-flex justify-content-center'>
-                <a className='btn btn-outline-secondary my-2 px-2' href='#'>
+                <a className='btn btn-outline-secondary mt-2 mb-3 button-background px-4' href='#'>
                   Learn More
                 </a>
               </div>

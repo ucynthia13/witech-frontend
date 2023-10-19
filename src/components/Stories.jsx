@@ -5,17 +5,6 @@ import image3 from '../assets/image3.jpg';
 
 function Stories() {
 
-  const styles = `
-  .hover-effect {
-    transition: transform 0.2s, box-shadow 0.2s; 
-  }
-  
-  .hover-effect:hover {
-    transform: scale(1.05); 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
-  }
-  `
-
   const initialDivs = [
     {
       image: image1,
@@ -57,10 +46,9 @@ function Stories() {
 
   return (
     <div className='container'>
-      <style>{styles}</style>
       <div className='row'>
-        <h5 className='text-center mt-5 fw-light'>Stories</h5>
-        <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2'>Blog</span></h1>
+        <h5 className='text-center mt-5'>Stories</h5>
+        <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2 heading-color'>Read Our <span className='border px-2'>Blog</span></h1>
 
         <div className='col-lg-4 mt-4'>
           <div className='card hover-effect'>

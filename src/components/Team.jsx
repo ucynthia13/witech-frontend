@@ -82,9 +82,9 @@ function Team() {
     <div className='container mt-5'>
         <style>{styles}</style>
         <div className='row align-items-center g-5 d-flex justify-content-center'>
-            <p className='mt-5 fw-light text-center'>Expert people</p>
-            <p className='mt-2 h3 fw-bold text-center'>Meet Our Team</p>
-            <p className='mt-2 h5 fw-light text-center mb-5'>This letter serves to confirm that Aline Niyomungeli <span className='d-block'>was sponsored by Imbuto Foundation during her seco <span className='d-block'>Byimana from senior 2 to senior 3 through</span></span></p>
+            <p className='mt-5 text-center'>Expert people</p>
+            <p className='mt-2 h3 fw-bold text-center heading-color'>Meet Our Team</p>
+            <p className='mt-2 h5 text-center mb-5 fw-light'>This letter serves to confirm that Aline Niyomungeli <span className='d-block'>was sponsored by Imbuto Foundation during her seco <span className='d-block'>Byimana from senior 2 to senior 3 through</span></span></p>
             <div className='col-lg-3'>
                 <div className='image-flip'>
                     <div className='mainflip flip-0'>
