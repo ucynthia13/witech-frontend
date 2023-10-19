@@ -48,7 +48,7 @@ function Hero() {
     color: white;
     border-color: rgb(119,0,207);
   }
-    
+
   `
   return (
     <div className='container'>

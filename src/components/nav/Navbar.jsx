@@ -45,7 +45,7 @@ function Navbar() {
                 <li className="nav-item">
                     <a className="nav-link mx-4 link-with-underline" href="#">Contact</a>
                 </li>
-                <button className='btn btn-outline-secondary rounded-pill mx-4 mb-2 px-5'>Join Us</button>
+                <button className='btn btn-outline-secondary rounded-pill mx-4 mb-2 px-5 button-background'>Join Us</button>
             </ul>
         </div>
     </nav>

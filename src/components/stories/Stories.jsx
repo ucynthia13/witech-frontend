@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import image1 from '../assets/image1.jpg';
-import image2 from '../assets/image2.jpg';
-import image3 from '../assets/image3.jpg';
+import image1 from '../../assets/image1.jpg';
+import image2 from '../../assets/image2.jpg';
+import image3 from '../../assets/image3.jpg';
 
 function Stories() {
 
@@ -47,17 +47,17 @@ function Stories() {
   return (
     <div className='container'>
       <div className='row'>
-        <h5 className='text-center mt-5'>Stories</h5>
-        <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2 heading-color'>Read Our <span className='border px-2'>Blog</span></h1>
+        <h5 className='text-center h6 mt-5'>STORIES</h5>
+        <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></h1>
 
         <div className='col-lg-4 mt-4'>
           <div className='card hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
-              <p className='lead text-center'>{divs[currentSlide].description}</p>
+              <p className='text-center'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
-              <a className='btn btn-outline-secondary mb-3 px-3 rounded-pill' href='#'>
+              <a className='btn btn-outline-secondary mb-3 px-4 rounded  button-background' href='#'>
                   Learn More
                 </a>
               </div>
@@ -70,9 +70,9 @@ function Stories() {
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
-              <p className='lead text-center'>{divs[currentSlide].description}</p>
+              <p className='text-center'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
-              <a className='btn btn-outline-secondary mb-3 px-3 rounded-pill' href='#'>
+              <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background' href='#'>
                   Learn More
                 </a>
               </div>
@@ -85,9 +85,9 @@ function Stories() {
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
-              <p className='lead text-center'>{divs[currentSlide].description}</p>
+              <p className=' text-center'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
-                <a className='btn btn-outline-secondary mb-3 px-3 rounded-pill' href='#'>
+                <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background' href='#'>
                   Learn More
                 </a>
               </div>
@@ -98,7 +98,7 @@ function Stories() {
         </div>
 
         <div className='col-lg-12 mt-4 text-end'> 
-          <button onClick={nextSlide} className='btn btn-secondary rounded-circle'>
+          <button onClick={nextSlide} className='btn btn-secondary rounded-circle button-background'>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
               </svg>

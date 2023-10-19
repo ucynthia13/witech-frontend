@@ -1,21 +1,23 @@
 import React from 'react'
+import './Contact.css'
 
 function Contact() {
   return (
     <div className='container my-5 pt-5'>
         <div className='row'>
             <div className='col-12 text-center'>
-                <p className='fw-bold h2'>Do you want to step into the future before <span className='d-block'>others if yes let's go</span></p>
-                <a className='btn btn-outline-secondary my-2 px-4 mt-5' href='#'>Learn More</a>
+                <p className='fw-bold h2'> Step Into The Future Before Others?<span className='d-block mt-2 heading-color'>If Yes Let's Go !</span></p>
+                <a className='btn btn-outline-secondary my-2 px-5 mt-5 button-background' href='#'>Learn More</a>
             </div>
 
             <div className='col-12 mt-5'>
+
                 <div className='row'>
                     <div className='col-4 my-5'>
                         <label htmlFor='logo'><span className='fw-bold h3'>Logo</span> <span className='d-block mb-4'>Name of the company</span></label>
                         <div className='d-flex'>
                             <input className='form-control form-control-lg me-3' placeholder='Your Email'></input>
-                            <a className='btn btn-dark px-3 pt-2' href='#'>Subscribe!</a>
+                            <a className='btn btn-dark px-3 pt-2 button-background' href='#'>Subscribe!</a>
                         </div>
                     </div>
                     <div className='col-2'>
