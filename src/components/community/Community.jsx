@@ -1,14 +1,14 @@
-import React from 'react';
-import './Community.css';
+import React, { useState } from 'react';
+
 
 function Community() {
+
   return (
     <div className='container'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <p className='h6 text-center'>COMMUNITY</p>
         <div className='col-lg-6 slack'>
-          
-          
+
         </div>
 
         <div className='col-lg-6'>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import image1 from '../../assets/image1.jpg';
 import image2 from '../../assets/image2.jpg';
 import image3 from '../../assets/image3.jpg';
+import LearnMore from '../../assets/icons/LearnMore';
 
 function Stories() {
 
@@ -57,9 +58,7 @@ function Stories() {
               <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
               <p className='text-center'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
-              <a className='btn btn-outline-secondary mb-3 px-4 rounded  button-background' href='#'>
-                  Learn More
-                </a>
+                <LearnMore />
               </div>
             </div>
           </div>
@@ -72,9 +71,7 @@ function Stories() {
               <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
               <p className='text-center'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
-              <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background' href='#'>
-                  Learn More
-                </a>
+                <LearnMore />
               </div>
             </div>
           </div>
@@ -87,9 +84,7 @@ function Stories() {
               <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
               <p className=' text-center'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
-                <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background' href='#'>
-                  Learn More
-                </a>
+                <LearnMore />
               </div>
             </div>
           </div>

@@ -1,6 +1,4 @@
 import React from 'react'
-import image4 from '../../assets/image4.jpg'
-import './BioTwo.css'
 
 function BioTwo() {
 
@@ -8,7 +6,7 @@ function BioTwo() {
     <div className='container mt-5'>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
             <div className='col-10 col-sm-8 col-lg-6 blob3'>
-                {/* <img src={image4} className='d-block mx-lg-auto img-fluid rounded'></img> */}
+                
             </div>
             <div className='col-10 col-sm-8 col-lg-6'>
                 <p className='fw-bold h2 mb-5'>Mentoring <span className='heading-color'> Our Coding Students </span> In A 3-Part Process</p>

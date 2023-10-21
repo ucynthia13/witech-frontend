@@ -1,33 +1,9 @@
 import React from 'react'
 
 function Navbar() {
-    const styles = `
-    .link-with-underline {
-        position: relative;
-        display: inline-block;
-        margin-bottom: 10px; 
-      }
-      
-      .link-with-underline::before {
-        content: '';
-        position: absolute;
-        bottom: -5px; 
-        left: 0;
-        width: 0%;
-        height: 2px;
-        background-color: purple; 
-        transition: width 0.3s; 
-      }
-      
-      .link-with-underline:hover::before {
-        width: 100%; 
-      }
-      
-    `
   return (
 
     <nav className='navbar navbar-expand-lg mt-3'>
-        <style>{styles}</style>
         <div className='collapse navbar-collapse d-flex justify-content-center'>
             <ul className="navbar-nav mr-auto fw-bold">
                 <li className="nav-item active">

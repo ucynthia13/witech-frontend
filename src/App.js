@@ -9,8 +9,9 @@ import Partners from './components/partners/Partners';
 import Services from './components/service/Services ';
 import Stories from './components/stories/Stories';
 import Team from './components/team/Team';
-import "@fontsource/poppins";
+import 'typeface-poppins'
 import 'animate.css';
+import './assets/styles/App.css'
 
 
 function App() {
@@ -24,11 +25,9 @@ function App() {
       <BioTwo />
       <Team />
       <Gallery />
-      <Community />
+      {/* <Community /> */}
       <Stories />
       <Contact />
-     
-      
     </div>
   );
 }

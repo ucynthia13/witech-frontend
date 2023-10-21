@@ -1,11 +1,6 @@
 import React from 'react'
-import image3 from '../../assets/image3.jpg'
-import './Bio.css'
 
 function Bio() {
-
-
-  
   return (
     <div className='container mt-5 pt-4'>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
@@ -26,12 +21,11 @@ function Bio() {
             <a className='btn btn-outline-secondary ms-4 px-5 py-2 mt-3 button-background' href='#'>Learn More</a>
         </div>
         <div className='col-10 col-sm-8 col-lg-6 pt-4 blob2'>
-          {/* <img src={image3} className='d-block mx-lg-auto img-fluid rounded'></img> */}
+
         </div>
 
-    
   </div>
-
+ 
   </div>
   )
 }

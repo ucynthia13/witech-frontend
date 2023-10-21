@@ -1,0 +1,179 @@
+.blob1{
+  background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  width: 660px;
+  height: 440px;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center center;
+  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+0%, 100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+50%{
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+}
+}
+
+.heading-color {
+  color: rgb(119,0,207);
+}
+
+
+.watch-video{
+  color: rgb(119,0,207);
+  background-color: white;
+  border-color: rgb(119,0,207);
+}
+
+.watch-video:hover{
+  background-color: rgb(119,0,207);
+  color: white;
+  border-color: rgb(119,0,207);
+}
+
+  .hover-effect {
+    transition: transform 0.2s, box-shadow 0.2s; 
+    box-shadow: 0 5px 5px 5px rgba(103, 94, 111, 0.1);
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 5px 5px 5px rgba(103, 94, 111, 0.1);
+  }
+  .blob2{
+    background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    width: 630px;
+    height: 470px;
+    background-size: cover;
+    -webkit-background-position: center;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+    animation: bio-animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes bio-animate {
+    0%, 100% {
+      border-radius: 30% 70% 50% 50% / 70% 30% 70% 30%;
+     
+    }
+  }
+  
+  .blob3{
+    background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    width: 630px;
+    height: 470px;
+    background-size: cover;
+    -webkit-background-position: center;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+    animation: biotwo-animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+  }
+  
+  @keyframes biotwo-animate {
+    0%, 100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
+  
+  .image-flip:hover .backside,
+.image-flip.hover .backside {
+    
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.vertical-line {
+    content: "";
+    display: inline;
+    width: 100%;
+    border-left: 2px solid #000; 
+    margin-right: 10px; 
+  }
+  .link-with-underline {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px; 
+  }
+  
+  .link-with-underline::before {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: purple; 
+    transition: width 0.3s; 
+  }
+  
+  .link-with-underline:hover::before {
+    width: 100%; 
+  }
