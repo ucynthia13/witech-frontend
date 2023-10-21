@@ -1,14 +1,18 @@
-import Bio from './components/Bio';
-import BioTwo from './components/BioTwo';
-import Community from './components/Community';
-import Contact from './components/Contact';
-import Gallery from './components/Gallery';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar'
-import Partners from './components/Partners';
-import Services from './components/Services ';
-import Stories from './components/Stories';
-import Team from './components/Team';
+import Bio from './components/bio/Bio';
+import BioTwo from './components/bioTwo/BioTwo';
+import Community from './components/community/Community';
+import Contact from './components/contact/Contact';
+import Gallery from './components/gallery/Gallery';
+import Hero from './components/hero/Hero';
+import Navbar from './components/nav/Navbar'
+import Partners from './components/partners/Partners';
+import Services from './components/service/Services ';
+import Stories from './components/stories/Stories';
+import Team from './components/team/Team';
+import 'typeface-poppins'
+import 'animate.css';
+import './assets/styles/App.css'
+
 
 function App() {
   return (
@@ -21,7 +25,7 @@ function App() {
       <BioTwo />
       <Team />
       <Gallery />
-      <Community />
+      {/* <Community /> */}
       <Stories />
       <Contact />
     </div>

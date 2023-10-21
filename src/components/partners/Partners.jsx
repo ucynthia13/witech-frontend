@@ -1,7 +1,7 @@
 import React from 'react'
-import nesa from '../assets/nesa.png'
-import rca2 from '../assets/rca2.jpg'
-import rdb from '../assets/rdb.jpg'
+import nesa from '../../assets/nesa.png'
+import rca2 from '../../assets/rca2.jpg'
+import rdb from '../../assets/rdb.jpg'
 function Partners() {
   return (
     <div className='container mt-4'>
