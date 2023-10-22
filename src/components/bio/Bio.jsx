@@ -2,11 +2,12 @@ import React from 'react'
 
 function Bio() {
   return (
-    <div className='container mt-5 pt-4'>
+    <div className='container mt-5 pt-4 text-font' id='about'>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
+          <p className='h6 text-center'>Why Us?</p>
         <div className='col-lg-6'>
-            <h2 className='fw-bold mb-4'>We Provide You <span className='heading-color'> The Best </span><span className='d-block'>Training To Students</span></h2>
-              <p className='lead ms-3'>Empowering tommorrow's Tech Leaders with quality education, comphrehensive software training programs, cutting edge curricula, and a commitment to excellence</p>
+            <p className='fw-bold mb-4 h3'>We Provide You <span className='heading-color'> The Best </span><span className='mt-2 d-block'>Training To Students</span></p>
+              <p className=' ms-3'>Empowering tommorrow's Tech Leaders with quality education, comphrehensive software training programs, cutting edge curricula, and a commitment to excellence</p>
             <div className='row'>
                 <div className='col'>
                 <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3 heading-color'>2+</span> <span className='d-block'>years of</span><span className='d-block'>experience</span></p>

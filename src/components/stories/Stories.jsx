@@ -46,17 +46,17 @@ function Stories() {
   }, [currentSlide]);
 
   return (
-    <div className='container'>
+    <div className='container text-font' id='activities'>
       <div className='row'>
         <h5 className='text-center h6 mt-5'>STORIES</h5>
-        <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></h1>
+        <p className='h3 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></p>
 
         <div className='col-lg-4 mt-4'>
           <div className='card hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
-              <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
-              <p className='text-center'>{divs[currentSlide].description}</p>
+              <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
+              <p className='text-center text-font-size'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
                 <LearnMore />
               </div>
@@ -68,8 +68,8 @@ function Stories() {
           <div className='card hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
-              <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
-              <p className='text-center'>{divs[currentSlide].description}</p>
+              <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
+              <p className='text-center text-font-size'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
                 <LearnMore />
               </div>
@@ -81,8 +81,8 @@ function Stories() {
           <div className='card hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
-              <h5 className='card-title text-center'>{divs[currentSlide].title}</h5>
-              <p className=' text-center'>{divs[currentSlide].description}</p>
+              <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
+              <p className=' text-center text-font-size'>{divs[currentSlide].description}</p>
               <div className='d-flex justify-content-center'>
                 <LearnMore />
               </div>

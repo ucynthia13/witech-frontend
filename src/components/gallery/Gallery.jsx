@@ -13,9 +13,9 @@ function Gallery() {
     const [currentSlide, setCurrentSlide ] = useState(imageSet1)
 
   return (
-    <div className='container mt-5 pt-5'>
+    <div className='container text-font mt-5 pt-5' id='gallery'>
         <div className='row'>
-            <p className='h2 fw-bold'>Explore<span className='d-block mb-4 heading-color'>Full Gallery</span></p>
+            <p className='h3 fw-bold'>Explore<span className='d-block mb-4 heading-color'>Full Gallery</span></p>
 
             {currentSlide.map((image, index) => (
             <div className='hover col-lg-4' key={index}>
