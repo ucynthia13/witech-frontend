@@ -4,6 +4,7 @@ function LearnMore() {
   
   const styles=`
   .button-background{
+    font-size: 15px;
     background-color: rgb(119,0,207);
     color: white;
   }

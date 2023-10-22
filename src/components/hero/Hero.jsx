@@ -5,7 +5,7 @@ import image1 from '../../assets/image1.jpg'
 
 function Hero() {
   return (
-    <div className='container'>
+    <div className='container text-font'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6 '>
           <img className='img-fluid' src={image1}></img>
@@ -18,14 +18,14 @@ function Hero() {
           </div>
           <div className='lc-block mb-3'>
             <div editable='rich'>
-              <p className='lead'>
+              <p className=''>
                 empowering the next generation of innovators with comprehensive tech education, fostering excellence, and enriching communities 
                 through knowledge sharing and collaboration
               </p>
             </div>
           </div>
           <div className='lc-block d-grid gap-2 md-flex d-flex justify-content-md-left mt-4 pt-4'>
-            <a className='btn btn-outline-secondary px-4 me-md-4 rounded-pill button-background' href='#' role='button'>Get Started</a>
+            <a className='btn btn-outline-secondary px-5 pt-2 me-md-4 rounded-pill button-background' href='#' role='button'>Get Started</a>
             <a className='btn btn-outline-secondary px-4 rounded-pill watch-video' href='#' role='button'>
               <span className=''>
                 <WatchVideo />

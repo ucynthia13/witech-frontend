@@ -19,6 +19,16 @@
 }
 } */
 
+.text-font{
+  font-family: 'Poppins', sans-serif;
+}
+.text-font-size{
+  font-size: 14px;
+}
+.team-font-size{
+  font-size: 15px;
+}
+
 .heading-color {
   color: rgb(119,0,207);
 }
