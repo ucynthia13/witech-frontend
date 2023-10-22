@@ -46,7 +46,7 @@ function Stories() {
   }, [currentSlide]);
 
   return (
-    <div className='container'>
+    <div className='container' id='activities'>
       <div className='row'>
         <h5 className='text-center h6 mt-5'>STORIES</h5>
         <h1 className='h2 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></h1>

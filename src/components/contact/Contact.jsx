@@ -4,7 +4,7 @@ import FooterIcon from '../../assets/icons/FooterIcon'
 
 function Contact() {
   return (
-    <div className='container mt-5 mb-3 pt-5'>
+    <div className='container mt-5 mb-3 pt-5' id='contact'>
         <div className='row'>
             <div className='col-12 text-center'>
                 <p className='fw-bold h2'> Step Into The Future Before Others?<span className='d-block mt-2 heading-color'>If Yes Let's Go !</span></p>

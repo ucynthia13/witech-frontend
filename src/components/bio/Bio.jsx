@@ -2,7 +2,7 @@ import React from 'react'
 
 function Bio() {
   return (
-    <div className='container mt-5 pt-4'>
+    <div className='container mt-5 pt-4' id='about'>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-lg-6'>
             <h2 className='fw-bold mb-4'>We Provide You <span className='heading-color'> The Best </span><span className='d-block'>Training To Students</span></h2>

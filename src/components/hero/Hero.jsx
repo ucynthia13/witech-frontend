@@ -1,13 +1,14 @@
 import React from 'react'
 import '../../assets/styles/App.css'
 import WatchVideo from '../../assets/icons/WatchVideo'
+import image1 from '../../assets/image1.jpg'
 
 function Hero() {
   return (
     <div className='container'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
-        <div className='col-10 col-sm-8 col-lg-6 blob1 '>
-          
+        <div className='col-10 col-sm-8 col-lg-6 '>
+          <img className='img-fluid' src={image1}></img>
         </div>
         <div className='col-lg-6'>
           <div className='lc-block mb-3'>
