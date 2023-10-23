@@ -187,3 +187,43 @@
   .link-with-underline:hover::before {
     width: 100%; 
   }
+
+  
+  .horizontal-line {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .horizontal-line:before,
+  .horizontal-line:after {
+    background-color: rgb(119,0,207);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+    font-weight: bold;
+    padding: 0.7px;
+  }
+  
+  .horizontal-line:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .horizontal-line:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .watch-video{
+    color: rgb(119,0,207);
+    background-color: white;
+    border-color: rgb(119,0,207);
+  }
+
+.horizontal-border {
+  border-left: 2px solid #000; /* Adjust the color and thickness as needed */
+  padding-left: 20px; /* Adjust the padding as needed to separate the icon and text */
+}

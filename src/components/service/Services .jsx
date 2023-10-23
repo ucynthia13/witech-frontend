@@ -4,13 +4,15 @@ import LearnMore from '../../assets/icons/LearnMore';
 import services from '../../assets/data/services';
 
 function Services() {
+
   const [service, setService] = useState(services);
 
   return (
     <div className='container mt-4 text-font'>
       <div className='row'>
         <h6 className='text-center mt-5'>Services</h6>
-        <p className='h3 text-center mb-4 pb-4 fw-bold'>
+        {/* <h1 className='text-center'>Today</h1> */}
+        <p className='h3 text-center mb-4 pb-4 fw-bold horizontal-line'>
           Our <span className='heading-color'>Special </span>Services
         </p>
 

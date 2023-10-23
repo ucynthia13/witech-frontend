@@ -12,7 +12,7 @@ function Team() {
     <div className='container mt-5 text-font'>
         <div className='row align-items-center g-5 d-flex justify-content-center'>
             <p className='mt-5 text-center'>Expert people</p>
-            <p className='mt-2 h3 fw-bold text-center'>Meet <span className='heading-color'>Our</span> Team</p>
+            <p className='mt-2 h3 fw-bold text-center horizontal-line'>Meet <span className='heading-color'>Our</span> Team</p>
             <p className='mt-2 text-center team-font-size'>This letter serves to confirm that Aline Niyomungeli <span className='d-block'>was sponsored by Imbuto Foundation during her seco</span></p>
             {members.map((member, index) => (
             <div className='col-lg-3' key={index}>
