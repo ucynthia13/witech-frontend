@@ -99,8 +99,6 @@ function Stories() {
               </svg>
           </button>
         </div>
-
-        <hr className='mt-4'></hr>
       </div>
     </div>
   );
