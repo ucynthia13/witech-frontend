@@ -4,19 +4,21 @@ import LearnMore from '../../assets/icons/LearnMore';
 import services from '../../assets/data/services';
 
 function Services() {
+
   const [service, setService] = useState(services);
 
   return (
     <div className='container mt-4 text-font'>
       <div className='row'>
         <h6 className='text-center mt-5'>Services</h6>
-        <p className='h3 text-center mb-4 pb-4 fw-bold'>
+        {/* <h1 className='text-center'>Today</h1> */}
+        <p className='h3 text-center mb-4 pb-4 fw-bold horizontal-line'>
           Our <span className='heading-color'>Special </span>Services
         </p>
 
         {service.map((service, index) => (
           <div className='col-lg-4 mt-4' key={index}>
-            <div className='card hover-effect'>
+            <div className='card border-0 hover-effect'>
               <img src={image2} className='img-fluid card-img-top' alt='students' />
               <div className='card-body'>
                 <h5 className='card-title text-center fw-bold my-2'>{service.title}</h5>

@@ -5,8 +5,8 @@ function Navbar() {
   return (
 
     <nav className='navbar navbar-expand-lg mt-3'>
-        <div className='collapse navbar-collapse d-flex justify-content-center'>
-            <ul className="navbar-nav mr-auto fw-bold">
+        <div className='collapse navbar-collapse d-flex justify-content-center text-font'>
+            <ul className="navbar-nav mr-auto h6">
                 <li className="nav-item active">
                     <a className="nav-link mx-4 link-with-underline" href="#">Home</a>
                 </li>
