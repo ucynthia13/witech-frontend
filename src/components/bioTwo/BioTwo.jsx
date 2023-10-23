@@ -5,7 +5,7 @@ function BioTwo() {
   return (
     <div className='container mt-5 text-font'>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
-            <div className='col-10 col-sm-8 col-lg-6 blob3'>
+            <div className='col-10 col-sm-8 col-lg-6 blob3 '>
                 
             </div>
             <div className='col-10 col-sm-8 col-lg-6'>
@@ -40,7 +40,7 @@ function BioTwo() {
                             </svg>
                         </span>
                         <span className='fw-bold h5 ms-3'>Practical Application</span>
-                        <span className='d-block ms-5 mt-3'>Apply your knowledge through teamwork, collaboration, and real-world projects that reinforce coding skills and benefit the community</span></p>
+                        <span className='d-block ms-5 mt-3'>Apply your knowledge through teamwork, collaboration, and real-world projects that reinforce coding skills and benefit the </span></p>
                     </li>
                 </ul>
             </div>

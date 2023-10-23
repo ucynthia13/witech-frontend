@@ -13,7 +13,7 @@ function Hero() {
         <div className='col-lg-6'>
           <div className='lc-block mb-3'>
             <div editable='rich'>
-              <h2 className='fw-bold display-5 mb-4 animate__animated animate__bounce animate__slower'>Time To <span className='heading-color'>Empowering</span> Tomorrow's </h2>
+              <h2 className='fw-bold display-6 mb-4 animate__animated animate__bounce animate__slower'>Time To <span className='heading-color'>Empowering</span> Tomorrow's </h2>
             </div>
           </div>
           <div className='lc-block mb-3'>

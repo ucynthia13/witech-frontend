@@ -52,7 +52,7 @@ function Stories() {
         <p className='h3 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></p>
 
         <div className='col-lg-4 mt-4'>
-          <div className='card hover-effect'>
+          <div className='card border-0 hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
@@ -65,7 +65,7 @@ function Stories() {
         </div>
 
         <div className='col-lg-4 mt-4'>
-          <div className='card hover-effect'>
+          <div className='card border-0 hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
@@ -78,7 +78,7 @@ function Stories() {
         </div>
 
         <div className='col-lg-4 mt-4'>
-          <div className='card hover-effect'>
+          <div className='card border-0 hover-effect'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
