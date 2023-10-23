@@ -5,14 +5,14 @@ function LearnMore() {
   const styles=`
   .button-background{
     font-size: 15px;
-    background-color: rgb(119,0,207);
+    background-color: rgb(116, 22, 198);
     color: white;
   }
   
   .button-background:hover{
-    color: rgb(119,0,207);
+    color: rgb(116, 22, 198);
     background-color: white;
-    border-color: rgb(119,0,207);
+    border-color: rgb(116, 22, 198);
   }
   `
   return (
