@@ -48,7 +48,7 @@ function Stories() {
   return (
     <div className='container text-font' id='activities'>
       <div className='row'>
-        <h5 className='text-center h6 mt-5'>STORIES</h5>
+        <h5 className='text-center h6 mt-4'>STORIES</h5>
         <p className='h3 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></p>
 
         <div className='col-lg-4 mt-4'>

@@ -13,7 +13,7 @@ function Gallery() {
     const [currentSlide, setCurrentSlide ] = useState(imageSet1)
 
   return (
-    <div className='container text-font mt-5 ' id='gallery'>
+    <div className='container text-font mt-5 pt-4' id='gallery'>
         <div className='row'>
             <p className='h3 fw-bold'>Explore<span className='d-block mb-4 heading-color'>Full Gallery</span></p>
 
@@ -27,7 +27,7 @@ function Gallery() {
         </div>
         <div className='row'>
         <div className='col-lg-12 mt-4 text-end'> 
-          <button className='btn btn-secondary rounded-circle button-background horizontal-linex'>
+          <button className='btn btn-secondary rounded-circle button-background'>
             <More />
           </button>
         </div>

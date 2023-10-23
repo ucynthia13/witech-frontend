@@ -39,7 +39,6 @@ function Team() {
         </div>
             ))}
         </div>
-        <hr className='mt-5'></hr>
     </div>
   )
 }
