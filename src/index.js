@@ -1,23 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-
-import reportWebVitals from './reportWebVitals';
-
+import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { createRoot } from 'react-dom/client';
 
+import App from './App';
+import { BrowserRouter,Routes,Route } from 'react-router-dom'; // Remove Routes and Route
+import Article from './components/article/article';
 
+// Wrap your ReactDOM.render call with createRoot
+const root = createRoot(document.getElementById('root'));
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+  <Routes>
+    {/* Instead of Routes and Route, you can directly use the Route component */}
+    <Route exact path="/" element={<App />} />
+    <Route path="/article" element={<Article />} />
+    </Routes>
+  </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

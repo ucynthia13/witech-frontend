@@ -17,7 +17,7 @@ function LearnMore() {
   `
   return (
     
-    <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background' href='#'>
+    <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background'>
       <style>{styles}</style>
     Learn More
   </a>
