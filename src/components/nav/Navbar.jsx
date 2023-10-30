@@ -4,13 +4,13 @@ function Navbar() {
   return (
 
     <nav className='navbar navbar-expand-lg mt-3'>
-        <div className='collapse navbar-collapse d-flex justify-content-center text-font'>
-            <ul className="navbar-nav mr-auto h6">
+        <div className='collapse navbar-collapse d-flex justify-content-center team-font-size'>
+            <ul className="navbar-nav mr-auto fw-bold">
                 <li className="nav-item active">
-                    <a className="nav-link mx-4 link-with-underline" href="#">Home</a>
+                    <a className="nav-link mx-4 link-with-underline " href="#">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link mx-4 link-with-underline" href="#about">About</a>
+                    <a className="nav-link mx-4 link-with-underline " href="#about">About</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link mx-4 link-with-underline" href="#activities">Activities</a>

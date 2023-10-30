@@ -1,32 +1,35 @@
-/* .blob1{
-  background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-  width: 660px;
+.blob1{
+  background-color: rgb(234, 217, 249);
   height: 440px;
   background-size: cover;
   -webkit-background-position: center;
   background-position: center center;
-  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  box-shadow: 0 5px 5px 5px rgba(139, 76, 211, 0.2);
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
 
 @keyframes animate {
 0%, 100%{
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    border-radius: 10%;
 }
-50%{
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+
 }
-} */
+
+.hero{
+  width: 100%;
+  height: 100%;
+  
+}
 
 .text-font{
   font-family: 'Poppins', sans-serif;
 }
 .text-font-size{
-  font-size: 14px;
+  font-size: 15px;
 }
 .team-font-size{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .heading-color {
@@ -219,6 +222,13 @@
 
 
 .horizontal-border {
-  border-left: 2px solid #000; /* Adjust the color and thickness as needed */
-  padding-left: 20px; /* Adjust the padding as needed to separate the icon and text */
+  border-left: 2px solid #000; 
+  padding-left: 20px; 
 }
+
+.card-height {
+  height: 100px;
+  width: 400px;
+}
+
+

@@ -15,7 +15,7 @@ function Contact() {
 
                 <div className='row'>
                     <div className='col-4 my-5'>
-                        <label htmlFor='logo'><span className='fw-bold h3'>Logo</span> <span className='d-block mb-4'>Name of the company</span></label>
+                        <label htmlFor='logo'><span className='fw-bold h3'>Logo</span> <span className='d-block mb-4 text-font-size'>WithinTech</span></label>
                         <div className='d-flex'>
                             <input className='form-control form-control-lg'></input>
                             <a className='btn btn-dark px-4 py-3 button-background' href='#'>Subscribe!</a>
@@ -24,24 +24,24 @@ function Contact() {
                     <div className='col-2'>
                         <ul className='list-group list-unstyled ms-5 my-5'>
                             <li className='fw-bold mb-3 h5'>Partnership</li>
-                            <li className='mb-3'>Schools</li>
-                            <li className='mb-3'>Branding</li>
-                            <li className='mb-2'>Companies</li>
+                            <li className='mb-3 text-font-size'>Schools</li>
+                            <li className='mb-3 text-font-size'>Branding</li>
+                            <li className='mb-2 text-font-size'>Companies</li>
                         </ul>
                     </div>
                     <div className='col-2'>
                         <ul className='list-group list-unstyled ms-5 my-5'>
                             <li className='fw-bold mb-3 h5'>Partnership</li>
-                            <li className='mb-3'>Schools</li>
-                            <li className='mb-3'>Branding</li>
+                            <li className='mb-3 text-font-size'>Schools</li>
+                            <li className='mb-3 text-font-size'>Branding</li>
                            
                         </ul>
                     </div>
                     <div className='col-4'>
                         <ul className='list-group list-unstyled ms-5 my-5'>
                             <li className='fw-bold mb-3 h5'>Partnership</li>
-                            <li className='mb-3'>Schools</li>
-                            <li className='mb-3'>Branding</li>
+                            <li className='mb-3 text-font-size'>Schools</li>
+                            <li className='mb-3 text-font-size'>Branding</li>
                             
                         </ul>
                     </div>

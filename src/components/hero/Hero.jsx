@@ -8,8 +8,8 @@ function Hero() {
   return (
     <div className='container text-font'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
-        <div className='col-10 col-sm-8 col-lg-6 '>
-          <img className='img-fluid' src={image1}></img>
+        <div className='col-10 col-sm-8 col-lg-6'>
+          <img className='border rounded-3 img-fluid' src={image1}></img>
           
         </div>
         <div className='col-lg-6'>
@@ -20,7 +20,7 @@ function Hero() {
           </div>
           <div className='lc-block mb-3'>
             <div editable='rich'>
-              <p className=''>
+              <p className='text-font-size'>
                 empowering the next generation of innovators with comprehensive tech education, fostering excellence, and enriching communities 
                 through knowledge sharing and collaboration
               </p>
@@ -31,7 +31,7 @@ function Hero() {
             <a className='btn btn-outline-secondary rounded-circle button-background' href='#' role='button'>
               <WatchVideo />
             </a>
-            <span className='mt-2'> Watch Video</span>
+            <span className='mt-2 text-font-size'> Watch Video</span>
           </div>
         </div>
       </div>
