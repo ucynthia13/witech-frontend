@@ -1,4 +1,5 @@
 import React from 'react'
+import curve from '../../assets/shape.png'
 
 function Bio() {
   return (
@@ -6,7 +7,19 @@ function Bio() {
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
           <p className='h6 text-center'>Why Us?</p>
         <div className='col-lg-6'>
-            <p className='fw-bold mb-4 h3'>We Provide You <span className='heading-color'> The Best </span><span className='mt-2 d-block'>Training To Students</span></p>
+            <p className='fw-bold mb-4 h2'>We Provide You <span className='heading-color'> The Best 
+               <img
+                      className='d-block'
+                      src={curve}
+                      
+                      alt="Headline curve"
+                      style={{ width: '140px', height: 'auto', transform: 'rotate(4deg)', marginLeft: '260px'}}
+                />
+               </span>
+               <span className='mt-2 d-block'>
+                Training To Students
+                </span>
+            </p>
               <p className=' ms-3 text-font-size'>Empowering tommorrow's Tech Leaders with quality education, comphrehensive software training programs, cutting edge curricula, and a commitment to excellence</p>
             <div className='row'>
                 <div className='col'>

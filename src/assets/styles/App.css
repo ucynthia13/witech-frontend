@@ -1,19 +1,9 @@
 .blob1{
-  background-color: rgb(234, 217, 249);
-  height: 440px;
+  height: 450px;
+  background-color: rgb(202, 157, 241);
   background-size: cover;
-  -webkit-background-position: center;
-  background-position: center center;
-  box-shadow: 0 5px 5px 5px rgba(139, 76, 211, 0.2);
-  animation: animate 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
-}
-
-@keyframes animate {
-0%, 100%{
-    border-radius: 10%;
-}
-
+  /* box-shadow: 0 5px 5px 5px rgba(180, 132, 235, 0.2); */
+  border-radius: 50%;
 }
 
 .hero{
@@ -60,8 +50,8 @@
   }
   .blob2{
     background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    width: 630px;
-    height: 470px;
+    height: 500px;
+    width: 500px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
@@ -91,7 +81,7 @@
   
   @keyframes biotwo-animate {
     0%, 100% {
-      border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+      border-radius: 50%;
     }
   }
   
@@ -202,7 +192,7 @@
     background-color: rgb(116, 22, 198);
     content: "";
     display: inline-block;
-    height: 1px;
+    height: 2px;
     position: relative;
     vertical-align: middle;
     width: 10%;
@@ -228,7 +218,13 @@
 
 .card-height {
   height: 100px;
-  width: 400px;
+  width: 380px;
 }
 
+.img-hw{
+  /* box-shadow: 0 3px 3px 3px rgba(117, 89, 151, 0.2);  */
+  /* border-radius: 5px; 
+  display: block; */
+  height: 500px;
+}
 

@@ -1,27 +1,40 @@
 import React from 'react'
 import '../../assets/styles/App.css'
 import WatchVideo from '../../assets/icons/WatchVideo'
-import image1 from '../../assets/image1.jpg'
-
+import hero from '../../assets/home-hero.jpg'
+import curve from '../../assets/shape.png'
 function Hero() {
 
   return (
     <div className='container text-font'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6'>
-          <img className='border rounded-3 img-fluid' src={image1}></img>
+          <div className=''>  
+            <img src={hero} alt="Hero img" width="480" height="450" style={{ lineHeight: '0' }} />
+          </div>
           
         </div>
         <div className='col-lg-6'>
           <div className='lc-block mb-3'>
             <div editable='rich'>
-              <h2 className='fw-bold display-6 mb-4 animate__animated animate__bounce animate__slower'>Time To <span className='heading-color'>Empowering</span> Tomorrow's </h2>
+              <h2 className='fw-bold display-5 mb-5 animate__animated animate__bounce animate__slower'>
+              <span className='heading-color'>Time To  </span>
+                <span className=''> Empowering                   
+                  <img
+                      className='d-block text-end'
+                      src={curve}
+                      
+                      alt="Headline curve"
+                      style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)' }}
+                    />
+                  </span>Tomorrow's Generation
+                  </h2>    
             </div>
           </div>
           <div className='lc-block mb-3'>
             <div editable='rich'>
               <p className='text-font-size'>
-                empowering the next generation of innovators with comprehensive tech education, fostering excellence, and enriching communities 
+                Empowering the next generation of innovators with comprehensive tech education, fostering excellence, and enriching communities 
                 through knowledge sharing and collaboration
               </p>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-// import './Contact.css'
+import curve from '../../assets/shape.png'
 import FooterIcon from '../../assets/icons/FooterIcon'
 
 function Contact() {
@@ -7,7 +7,15 @@ function Contact() {
     <div className='container text-font mt-5 mb-3 pt-5' id='contact'>
         <div className='row'>
             <div className='col-12 text-center'>
-                <p className='fw-bold h3'> Step Into The Future Before Others?<span className='d-block mt-2 heading-color'>If Yes Let's Go !</span></p>
+                <p className='fw-bold h3'> Step Into The Future Before Others?<span className='d-block mt-3 heading-color'>If Yes Let's Go !</span>
+                <img
+                      className='d-block'
+                      src={curve}
+                      
+                      alt="Headline curve"
+                      style={{ width: '250px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '500px'}}
+              />
+                </p>
                 <a className='btn btn-outline-secondary my-2 px-5 py-3 mt-5 button-background' href='#'>Request Early Access</a>
             </div>
 

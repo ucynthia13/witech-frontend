@@ -1,9 +1,10 @@
 import React from 'react';
+import curve from '../../assets/shape.png'
 
 function BioTwo() {
   const styles = `
     .icon {
-      counter-reset: section;
+      counter-reset: section ; /* Set counter to 0 initially */
       border-left: solid 1px rgb(116, 22, 198);
       border-style: dotted;
       border-right: none;
@@ -32,7 +33,7 @@ function BioTwo() {
       text-align: center;
     }
     .icon .fw-bold {
-      font-size: 16 px;
+      font-size: 16px;
       color: #333; /* Customize the color */
     }
     .icon .d-block {
@@ -44,10 +45,21 @@ function BioTwo() {
     <div className="container mt-5 text-font">
       <style>{styles}</style>
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div className="col-10 col-sm-8 col-lg-6 blob3"></div>
+        <div className="col-10 col-sm-8 col-lg-6 blob3">
+          
+        </div>
         <div className="col-10 col-sm-8 col-lg-6">
-          <p className="fw-bold h3 mb-5">
-            Mentoring <span className="heading-color">Our Coding Students</span> In A 3-Part Process
+          <p className="fw-bold h2 mb-5">
+            Mentoring 
+            <span className=""> Our Students In A</span> 
+              <span className="heading-color d-block mt-4">3-Part Process</span> 
+              <img
+                      className='d-block'
+                      src={curve}
+                      
+                      alt="Headline curve"
+                      style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
+              />
           </p>
           <div className="">
             <div className="mb-3">

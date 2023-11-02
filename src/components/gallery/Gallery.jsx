@@ -4,6 +4,7 @@ import image2 from '../../assets/image2.jpg'
 import image3 from '../../assets/image3.jpg'
 import image4 from '../../assets/image4.jpg'
 import More from '../../assets/icons/More'
+import curve from '../../assets/shape.png'
 
 
 function Gallery() {
@@ -15,7 +16,14 @@ function Gallery() {
   return (
     <div className='container text-font mt-5 pt-4' id='gallery'>
         <div className='row'>
-            <p className='h3 fw-bold'>Explore<span className='d-block mb-4 heading-color'>Full Gallery</span></p>
+            <p className='h3 fw-bold'>Explore<span className='d-block mt-2 heading-color'>Full Gallery</span>
+            <img
+                      className='d-block mb-4'
+                      src={curve}                 
+                      alt="Headline curve"
+                      style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
+              />
+            </p>
 
             {currentSlide.map((image, index) => (
             <div className='hover col-lg-4' key={index}>
