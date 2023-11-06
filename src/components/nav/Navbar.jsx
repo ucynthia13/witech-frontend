@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 function Navbar() {
+    const navigate = useNavigate();
   return (
 
     <nav className='navbar navbar-expand-lg mt-3'>
@@ -9,8 +10,9 @@ function Navbar() {
                 <li className="nav-item active">
                     <a className="nav-link mx-4 link-with-underline " href="#">Home</a>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link mx-4 link-with-underline " href="#about">About</a>
+      
+                <li onClick={()=>navigate("../article/article")} className="nav-item">
+                    <a className="nav-link mx-4 link-with-underline" href="#about">About</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link mx-4 link-with-underline" href="#activities">Activities</a>

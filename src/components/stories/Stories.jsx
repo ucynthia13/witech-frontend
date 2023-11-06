@@ -3,8 +3,11 @@ import image1 from '../../assets/image1.jpg';
 import image2 from '../../assets/image2.jpg';
 import image3 from '../../assets/image3.jpg';
 import LearnMore from '../../assets/icons/LearnMore';
+import { useNavigate } from 'react-router-dom';
 
 function Stories() {
+  const navigate = useNavigate();
+
 
   const initialDivs = [
     {
@@ -56,8 +59,9 @@ function Stories() {
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
-              <p className='text-center team-font-size'>{divs[currentSlide].description}</p>
-              <div className='d-flex justify-content-center'>
+              <p className='text-center text-font-size'>{divs[currentSlide].description}</p>
+              <div  onClick={()=>navigate("/article")} className='d-flex justify-content-center'>
+
                 <LearnMore />
               </div>
             </div>

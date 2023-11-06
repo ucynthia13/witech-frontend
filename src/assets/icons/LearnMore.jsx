@@ -16,8 +16,10 @@ function LearnMore() {
   }
   `
   return (
-    
+   
     <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background team-font-size' href='#'>
+
+    
       <style>{styles}</style>
     Learn More
   </a>
