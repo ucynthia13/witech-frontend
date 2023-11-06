@@ -1,5 +1,6 @@
 import React from 'react'
 import curve from '../../assets/shape.png'
+import hero from '../../assets/heroo.png'
 
 function Bio() {
   return (

@@ -3,6 +3,7 @@ import image2 from '../../assets/image2.jpg';
 import LearnMore from '../../assets/icons/LearnMore';
 import services from '../../assets/data/services';
 
+
 function Services() {
 
   const [service, setService] = useState(services);

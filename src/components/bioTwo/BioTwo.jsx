@@ -3,8 +3,10 @@ import curve from '../../assets/shape.png'
 
 function BioTwo() {
   const styles = `
+    .container{
+      counter-reset: section;
+    }
     .icon {
-      counter-reset: section ; /* Set counter to 0 initially */
       border-left: solid 1px rgb(116, 22, 198);
       border-style: dotted;
       border-right: none;
@@ -34,7 +36,7 @@ function BioTwo() {
     }
     .icon .fw-bold {
       font-size: 16px;
-      color: #333; /* Customize the color */
+      color: #333;
     }
     .icon .d-block {
       font-size: 15px;
@@ -65,8 +67,8 @@ function BioTwo() {
             <div className="mb-3">
               <div className="text-start icon">
                 <span className="fw-bold h5 ms-4">Computer Basics</span>
-                <span className="d-block ms-4 my-4 text-font-size">
-                  Acquire a solid understanding of computer fundamentals, including operating systems, file management, and web development
+                <span className="d-block ms-4 my-4 team-font-size">
+                  Acquire a solid understanding of computer skills, including operating systems, file management, and web development
                 </span>
               </div>
               <div className="text-start icon">

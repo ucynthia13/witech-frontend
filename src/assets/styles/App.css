@@ -1,38 +1,24 @@
-.blob1{
-  height: 450px;
-  background-color: rgb(202, 157, 241);
-  background-size: cover;
-  /* box-shadow: 0 5px 5px 5px rgba(180, 132, 235, 0.2); */
-  border-radius: 50%;
-}
-
 .hero{
   width: 100%;
   height: 100%;
-  
 }
-
 .text-font{
   font-family: 'Poppins', sans-serif;
 }
 .text-font-size{
-  font-size: 15px;
-}
-.team-font-size{
   font-size: 14px;
 }
-
+.team-font-size{
+  font-size: 13px;
+}
 .heading-color {
   color: rgb(116, 22, 198);
 }
-
-
 .watch-video{
   color: rgb(116, 22, 198);
   background-color: white;
   border-color: rgb(116, 22, 198);
 }
-
 .watch-video:hover{
   background-color: rgb(116, 22, 198);
   color: white;
@@ -40,16 +26,16 @@
 }
 
   .hover-effect {
-    transition: transform 0.2s, box-shadow 0.2s; 
+    transition: transform 0.3s, box-shadow 0.2s; 
     box-shadow: 0 4px 4px 4px rgba(103, 94, 111, 0.1);
   }
   
   .hover-effect:hover {
-    transform: scale(1.05); 
+    transform: scale(1.035); 
     box-shadow: 0 5px 5px 5px rgba(103, 94, 111, 0.1);
   }
   .blob2{
-    background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-image: url('../../assets/IMG_1922.JPG');
     height: 500px;
     width: 500px;
     background-size: cover;
@@ -68,22 +54,17 @@
   }
   
   .blob3{
-    background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    width: 500px;
-    height: 500px;
+    background-image: url('../../assets/IMG_1925.JPG');
+    width: 520px;
+    height: 520px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
     box-shadow: 0 4px 4px 4px rgba(49, 17, 61, 0.2);
-    animation: biotwo-animate 5s ease-in-out infinite;
+    animation: bio-animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
   }
   
-  @keyframes biotwo-animate {
-    0%, 100% {
-      border-radius: 50%;
-    }
-  }
   
   .image-flip:hover .backside,
 .image-flip.hover .backside {
@@ -192,7 +173,7 @@
     background-color: rgb(116, 22, 198);
     content: "";
     display: inline-block;
-    height: 2px;
+    height: 1.6px;
     position: relative;
     vertical-align: middle;
     width: 10%;
@@ -219,12 +200,5 @@
 .card-height {
   height: 100px;
   width: 380px;
-}
-
-.img-hw{
-  /* box-shadow: 0 3px 3px 3px rgba(117, 89, 151, 0.2);  */
-  /* border-radius: 5px; 
-  display: block; */
-  height: 500px;
 }
 

@@ -1,41 +1,41 @@
 const teamNames = [
     {
-        name: 'DIVINE INGABIRE',
+        name: 'Divine Ingabire',
         title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'ALINE NIYOMUNGELI',
+        name: 'Aline Niyomungeli',
         title: 'Designer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'CYNTHIA UMWALI',
+        name: 'Cynthia Umwali',
         title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'NDIZIHIWE REGIS',
+        name: 'Ndizihiwe Regis',
         title: 'Backend Developer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'MUHIRE IGOR',
+        name: 'Muhire Igor',
         title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'RUTH NKUBITOYIMANZI',
+        name: 'Ruth Nkubitoyimanzi',
         title: 'Frontend Developer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'NGABO IRIS',
+        name: 'Ngabo Iris',
         title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'DIVINE INGABIRE',
+        name: 'Divine Ingabire',
         title: 'Frontend Developer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
