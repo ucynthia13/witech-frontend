@@ -3,6 +3,7 @@ import image2 from '../../assets/image2.jpg';
 import LearnMore from '../../assets/icons/LearnMore';
 import services from '../../assets/data/services';
 
+
 function Services() {
 
   const [service, setService] = useState(services);
@@ -18,11 +19,11 @@ function Services() {
 
         {service.map((service, index) => (
           <div className='col-lg-4 mt-4' key={index}>
-            <div className='card border-0 hover-effect'>
+            <div className='card border-0 hover-effect card-height'>
               <img src={image2} className='img-fluid card-img-top' alt='students' />
               <div className='card-body'>
                 <h5 className='card-title text-center fw-bold my-2'>{service.title}</h5>
-                <p className='text-center text-font-size'>
+                <p className='text-center team-font-size'>
                   {service.description}
                 </p>
                 <div className='d-flex justify-content-center'>

@@ -1,42 +1,42 @@
 const teamNames = [
     {
-        name: 'DIVINE INGABIRE',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Divine Ingabire',
+        title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'ALINE NIYOMUNGELI',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Aline Niyomungeli',
+        title: 'Designer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'CYNTHIA UMWALI',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Cynthia Umwali',
+        title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'NDIZIHIWE REGIS',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Ndizihiwe Regis',
+        title: 'Backend Developer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'DIVINE INGABIRE',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Muhire Igor',
+        title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'DIVINE INGABIRE',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Ruth Nkubitoyimanzi',
+        title: 'Frontend Developer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'DIVINE INGABIRE',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Ngabo Iris',
+        title: 'Frontend Developer ',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
     {
-        name: 'DIVINE INGABIRE',
-        title: 'Frontend Developer | Here Goes Another Description',
+        name: 'Divine Ingabire',
+        title: 'Frontend Developer',
         description: 'FrontEnd developer. This is your description showing your achievements. rontEnd developer. This is your description showing your achievements. rontEnd developer.'
     },
 

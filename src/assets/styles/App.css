@@ -1,24 +1,7 @@
-/* .blob1{
-  background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-  width: 660px;
-  height: 440px;
-  background-size: cover;
-  -webkit-background-position: center;
-  background-position: center center;
-  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
-  animation: animate 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
+.hero{
+  width: 100%;
+  height: 100%;
 }
-
-@keyframes animate {
-0%, 100%{
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-}
-50%{
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-}
-} */
-
 .text-font{
   font-family: 'Poppins', sans-serif;
 }
@@ -26,20 +9,16 @@
   font-size: 14px;
 }
 .team-font-size{
-  font-size: 15px;
+  font-size: 13px;
 }
-
 .heading-color {
   color: rgb(116, 22, 198);
 }
-
-
 .watch-video{
   color: rgb(116, 22, 198);
   background-color: white;
   border-color: rgb(116, 22, 198);
 }
-
 .watch-video:hover{
   background-color: rgb(116, 22, 198);
   color: white;
@@ -47,18 +26,18 @@
 }
 
   .hover-effect {
-    transition: transform 0.2s, box-shadow 0.2s; 
+    transition: transform 0.3s, box-shadow 0.2s; 
     box-shadow: 0 4px 4px 4px rgba(103, 94, 111, 0.1);
   }
   
   .hover-effect:hover {
-    transform: scale(1.05); 
+    transform: scale(1.035); 
     box-shadow: 0 5px 5px 5px rgba(103, 94, 111, 0.1);
   }
   .blob2{
-    background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    width: 630px;
-    height: 470px;
+    background-image: url('../../assets/IMG_1922.JPG');
+    height: 500px;
+    width: 500px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
@@ -75,22 +54,17 @@
   }
   
   .blob3{
-    background-image: url(https://images.unsplash.com/photo-1509839862600-309617c3201e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    width: 500px;
-    height: 500px;
+    background-image: url('../../assets/IMG_1925.JPG');
+    width: 520px;
+    height: 520px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
     box-shadow: 0 4px 4px 4px rgba(49, 17, 61, 0.2);
-    animation: biotwo-animate 5s ease-in-out infinite;
+    animation: bio-animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
   }
   
-  @keyframes biotwo-animate {
-    0%, 100% {
-      border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-    }
-  }
   
   .image-flip:hover .backside,
 .image-flip.hover .backside {
@@ -199,7 +173,7 @@
     background-color: rgb(116, 22, 198);
     content: "";
     display: inline-block;
-    height: 1px;
+    height: 1.6px;
     position: relative;
     vertical-align: middle;
     width: 10%;
@@ -219,6 +193,12 @@
 
 
 .horizontal-border {
-  border-left: 2px solid #000; /* Adjust the color and thickness as needed */
-  padding-left: 20px; /* Adjust the padding as needed to separate the icon and text */
+  border-left: 2px solid #000; 
+  padding-left: 20px; 
 }
+
+.card-height {
+  height: 100px;
+  width: 380px;
+}
+

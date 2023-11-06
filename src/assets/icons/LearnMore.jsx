@@ -4,7 +4,7 @@ function LearnMore() {
   
   const styles=`
   .button-background{
-    font-size: 15px;
+    font-size: 14px;
     background-color: rgb(116, 22, 198);
     color: white;
   }
@@ -16,12 +16,14 @@ function LearnMore() {
   }
   `
   return (
+   
+    <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background team-font-size' href='#'>
+
     
-    <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background'>
       <style>{styles}</style>
     Learn More
   </a>
   )
 }
 
-export default LearnMore
+export default LearnMore 
