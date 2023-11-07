@@ -14,6 +14,7 @@ function Article() {
   }
   `;
   return (
+    <div>
     <div className="px-xl-5">
       <Navbar />
       <div className="mt-5">
@@ -21,18 +22,18 @@ function Article() {
         <h1>Latest Articles</h1>
       </div>
       <div className="d-flex mt-5">
-      <div className="d-inline-block">
+      <div className="d-inline-block col-lg-5">
         <div className="btn btn-outline-secondary mb-2 px-3 button-background position-absolute">
           <style>{styles}</style>
           <p>12.MARCH 2023</p>
         </div>
         <div className="">
-        <img src={image1} alt="image" className="img-fluid " />
+          <img src={image1} alt="image" className="img-fluid " />
         </div>
         <div className="d-flex mt-4">
-        <p>Training</p>
-        <p> --- By Ndizihiwe Regis</p>
-      </div>
+          <p>Training</p>
+          <p> --- By Ndizihiwe Regis</p>
+        </div>
       </div>
       
       <div className="px-5 col-lg-7">
@@ -71,6 +72,7 @@ function Article() {
         </p>
       </div>
       </div>
+
       <div className="d-flex border-bottom pb-4 mt-5">
         <div className="">
           <img src={profile1} alt="profile" />
@@ -84,6 +86,7 @@ function Article() {
           </p>
         </div>
       </div>
+
       <div className="mt-5">
         <h4>Comments</h4>
         <div className="d-flex border-bottom pb-4 mt-4">
@@ -256,12 +259,16 @@ function Article() {
             placeholder="name@example.com"
           />
         </div>
-        <p>Save my name, email, and website in this browser for the next time I comment.</p>
+        <div className="mb-3 d-flex">
+          <input type="checkbox" className="me-2" id="save"></input>
+          <label htmlFor="save">Save my name, email, and website in this browser for the next time I comment.</label>
+        </div>
         <div className="text-center">
-        <button type="button" className="btn btn-secondary col-md-3 mt-4">Submit</button>
+        <button type="button" className="btn btn-secondary col-md-3 mt-3">Submit</button>
         </div>
       </div>
-      <Contact />
+      </div>
+        <Contact />
     </div>
   );
 }

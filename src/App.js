@@ -12,7 +12,7 @@ import Team from './components/team/Team';
 import 'typeface-poppins'
 import 'animate.css';
 import './assets/styles/App.css'
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Article from './components/article/article';
 
 function App() {
@@ -26,12 +26,11 @@ function App() {
       <BioTwo />
       <Team />
       <Gallery />
-      {/* <Community /> */}
       <Stories />
       <Contact />
-  <Routes>
+  {/* <Routes>
     <Route path="./article" element={<Article />} />
-  </Routes>
+  </Routes> */}
     </div>
 
   );

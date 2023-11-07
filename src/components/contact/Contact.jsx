@@ -16,7 +16,7 @@ function Contact() {
                       style={{ width: '250px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '500px'}}
               />
                 </p>
-                <a className='btn btn-outline-secondary my-2 px-5 py-3 mt-5 button-background' href='#'>Request Early Access</a>
+                <a className='btn btn-outline-secondary px-5 py-3 mt-5 button-background' href='#'>Request Early Access</a>
             </div>
 
             <div className='col-12 mt-5'>
