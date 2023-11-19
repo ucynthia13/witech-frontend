@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../assets/styles/App.css'
 import WatchVideo from '../../assets/icons/WatchVideo'
-import hero from '../../assets/heroo.png'
+import hero from '../../assets/IMG_0204.jpg'
 import curve from '../../assets/shape.png'
 function Hero() {
 
@@ -10,14 +10,14 @@ function Hero() {
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6'>
           <div className=''>  
-            <img src={hero} alt="Hero img" width="500" height="480" style={{ lineHeight: '0' }}/>
+            <img src={hero} alt="Hero img" width="600" height="450" style={{ lineHeight: '0' }} className='mt-5 rounded-2' />
           </div>
           
         </div>
         <div className='col-lg-6'>
           <div className='lc-block mb-3'>
             <div editable='rich'>
-              <h2 className='fw-bold display-5 mb-5'>
+              <h2 className='fw-bold display-5 mb-5 mt-4'>
               <span className='heading-color'>Time To  </span>
                 <span className=''> Empowering                   
                   <img

@@ -28,7 +28,7 @@ function Team() {
                     <div className='backside hover-effect'>
                         <div className='card border-0 px-2'>
                             <p className='card-title text-center fw-bold pt-5'>{member.name}</p>
-                            <p className='card-text text-center text-font-size'>{member.description} </p>
+                            <p className='card-text text-center team-font-size'>{member.description} </p>
                             <div className='text-center heading-color pb-5'>
                                 <Svg />
                             </div>

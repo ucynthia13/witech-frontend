@@ -59,7 +59,7 @@ function Contact() {
             <div className='col-12 pt-3 d-flex justify-content-center heading-color'> 
                 <FooterIcon />
             </div>
-            <p className='text-center mt-4'>@Copyright All Rights Reserved</p>
+            <p className='text-center mt-4 text-font-size'>@Copyright All Rights Reserved</p>
         </div>
     </div>
   )
