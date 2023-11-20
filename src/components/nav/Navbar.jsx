@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../assets/Group 2.png'
 
 function Navbar() {
+    // const navigate = useNavigate();
   return (
 
     <nav className='navbar navbar-expand-lg mt-4'>
@@ -14,8 +15,9 @@ function Navbar() {
                 <li className="nav-item active">
                     <a className="nav-link mx-4  link-with-underline " href="#">Home</a>
                 </li>
+      
                 <li className="nav-item">
-                    <a className="nav-link mx-4 link-with-underline " href="#about">About</a>
+                    <a className="nav-link mx-4 link-with-underline" href="#about">About</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link mx-4 link-with-underline" href="#activities">Activities</a>

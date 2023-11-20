@@ -4,7 +4,7 @@ import hero from '../../assets/heroo.png'
 
 function Bio() {
   return (
-    <div className='container mt-5 pt-4 text-font' id='about'>
+    <div className='container mt-4 pt-4 text-font' id='about'>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
           <p className='h6 text-center'>Why Us?</p>
         <div className='col-lg-6'>

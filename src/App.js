@@ -12,7 +12,8 @@ import Team from './components/team/Team';
 import 'typeface-poppins'
 import 'animate.css';
 import './assets/styles/App.css'
-import { Route, Router, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Article from './components/article/article';
 
 function App() {
   return (
@@ -25,10 +26,11 @@ function App() {
       <BioTwo />
       <Team />
       <Gallery />
-      {/* <Community /> */}
       <Stories />
       <Contact />
-
+  {/* <Routes>
+    <Route path="./article" element={<Article />} />
+  </Routes> */}
     </div>
 
   );
