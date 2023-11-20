@@ -20,7 +20,7 @@ function Team() {
                 <div className='mainflip flip-0'>
                     <div className='frontside hover-effect'>
                         <div className='card border-0'>
-                            <img className='card-img-top img-fluid rounded-circle mt-4 team-image ms-4' style={{ width: '230px', height: '170px' }} src={image3} alt='Team Member'></img>
+                            <img className='card-img-top img-fluid rounded-circle mt-4 team-image ms-4' style={{ width: '230px', height: '300px', backgroundPosition:'cover' }} src={member.image} alt='Team Member'></img>
                             <p className='card-title text-center pt-3 pb-1 fw-bold'>{member.name}</p>
                             <p className='card-text text-center mb-4 team-font-size'>{member.title}</p>
                         </div>

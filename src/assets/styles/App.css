@@ -37,7 +37,7 @@
   .blob2{
     background-image: url('../../assets/IMG_1922.JPG');
     height: 500px;
-    width: 500px;
+    width: 650px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
@@ -49,14 +49,13 @@
 @keyframes bio-animate {
     0%, 100% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-     
     }
   }
   
   .blob3{
     background-image: url('../../assets/IMG_1925.JPG');
-    width: 520px;
-    height: 520px;
+    width: 650px;
+    height: 500px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
@@ -198,7 +197,6 @@
 }
 
 .card-height {
-  height: 100px;
-  width: 380px;
+  width: 400px;
 }
 

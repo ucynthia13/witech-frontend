@@ -12,7 +12,6 @@ function Services() {
     <div className='container mt-4 text-font'>
       <div className='row'>
         <h6 className='text-center mt-5'>Services</h6>
-        {/* <h1 className='text-center'>Today</h1> */}
         <p className='h3 text-center mb-4 pb-4 fw-bold horizontal-line'>
           Our <span className='heading-color'>Special </span>Services
         </p>
@@ -20,7 +19,7 @@ function Services() {
         {service.map((service, index) => (
           <div className='col-lg-4 mt-4' key={index}>
             <div className='card border-0 hover-effect card-height'>
-              <img src={image2} className='img-fluid card-img-top' alt='students' />
+              <img src={service.image} className='img-fluid card-img-top' alt='students' />
               <div className='card-body'>
                 <h5 className='card-title text-center fw-bold my-2'>{service.title}</h5>
                 <p className='text-center team-font-size'>
