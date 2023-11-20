@@ -1,6 +1,7 @@
 import React from 'react'
 import curve from '../../assets/shape.png'
 import FooterIcon from '../../assets/icons/FooterIcon'
+import logo from '../../assets/Group 2.png'
 
 function Contact() {
   return (
@@ -23,9 +24,9 @@ function Contact() {
 
                 <div className='row'>
                     <div className='col-4 my-5'>
-                        <label htmlFor='logo'><span className='fw-bold h3'>Logo</span> <span className='d-block mb-4 text-font-size'>WithinTech</span></label>
+                        <label htmlFor='logo'><span className='fw-bold h3'><img src={logo} alt='logo' style={{ width: '100px', height: 'auto'}} ></img></span> <span className='d-block text-font-size ms-2 my-2'>WithinTech</span></label>
                         <div className='d-flex'>
-                            <input className='form-control form-control-lg'></input>
+                            <input className='form-control form-control-lg me-1'></input>
                             <a className='btn btn-dark px-4 py-3 button-background' href='#'>Subscribe!</a>
                         </div>
                     </div>
