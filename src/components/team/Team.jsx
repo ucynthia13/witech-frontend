@@ -20,7 +20,7 @@ function Team() {
                 <div className='mainflip flip-0'>
                     <div className='frontside hover-effect'>
                         <div className='card border-0'>
-                            <img className='card-img-top img-fluid rounded-circle mt-4 team-image ms-4' style={{ width: '230px', height: '300px', backgroundPosition:'cover' }} src={member.image} alt='Team Member'></img>
+                            <img className='card-img-top img-fluid rounded-circle mt-4 team-image ms-4' style={{ width: '230px', height: '300px', backgroundPosition:'cover' }} src={member.image} alt='Team Member' style={{ width: '200px', height: '200px' }}></img>
                             <p className='card-title text-center pt-3 pb-1 fw-bold'>{member.name}</p>
                             <p className='card-text text-center mb-4 team-font-size'>{member.title}</p>
                         </div>
@@ -28,7 +28,7 @@ function Team() {
                     <div className='backside hover-effect'>
                         <div className='card border-0 px-2'>
                             <p className='card-title text-center fw-bold pt-5'>{member.name}</p>
-                            <p className='card-text text-center text-font-size'>{member.description} </p>
+                            <p className='card-text text-center team-font-size'>{member.description} </p>
                             <div className='text-center heading-color pb-5'>
                                 <Svg />
                             </div>

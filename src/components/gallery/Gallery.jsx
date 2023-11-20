@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import image1 from '../../assets/IMG_1912.JPG'
-import image2 from '../../assets/IMG_1933.JPG'
-import image3 from '../../assets/IMG_E1863.JPG'
-import image4 from '../../assets/IMG_1966.JPG' 
-import image5 from '../../assets/IMG_E1864.JPG' 
-import image6 from '../../assets/IMG_1977.JPG' 
+import image1 from '../../assets/IMG_0181.jpg'
+import image2 from '../../assets/IMG_0191.jpg'
+import image3 from '../../assets/IMG_0204.jpg'
+import image4 from '../../assets/IMG_0234.jpg' 
+import image5 from '../../assets/IMG_0220.jpg' 
+import image6 from '../../assets/IMG_0387.jpg' 
 import More from '../../assets/icons/More'
 import curve from '../../assets/shape.png'
 
@@ -24,12 +24,12 @@ function Gallery() {
                       alt="Headline curve"
                       style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
               />
-            </p>
+            </p> 
 
             {currentSlide.map((image, index) => (
             <div className='hover col-lg-4' key={index}>
                 <div className='card mb-3 hover-effect'>
-                    <img src={image} className='card-img-top img-fluid' alt={`Image ${index + 1}`} style={{ width: '', height: '420px'}} ></img>
+                    <img src={image} className='card-img-top img-fluid' alt={`Image ${index + 1}`} style={{ width: '', height: ''}} ></img>
                 </div>
             </div>
             ))}

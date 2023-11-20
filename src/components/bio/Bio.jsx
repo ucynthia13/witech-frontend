@@ -30,7 +30,7 @@ function Bio() {
                 <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3 heading-color'>100</span> <span className='d-block text-font-size'>Experienced</span><span className='d-block text-font-size'>Mentors</span></p>
                 </div>
                 <div className='col'>
-                <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3 heading-color'>200+</span> <span className='d-block'>Trained</span><span className='d-block'>Students</span></p>
+                <p className='text-center'><span className='d-block fw-bolder mt-4 mb-2 h3 heading-color'>200+</span> <span className='d-block text-font-size'>Trained</span><span className='d-block text-font-size'>Students</span></p>
                 </div>
             </div>
             <a className='btn btn-outline-secondary ms-4 px-5 py-2 mt-3 button-background text-font-size' href='#'>Learn More</a>
