@@ -28,9 +28,6 @@ function App() {
       <Gallery />
       <Stories />
       <Contact />
-  {/* <Routes>
-    <Route path="./article" element={<Article />} />
-  </Routes> */}
     </div>
 
   );
