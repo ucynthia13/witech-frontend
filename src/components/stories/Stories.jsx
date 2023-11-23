@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import image1 from '../../assets/ramb2.jpg';
+import image1 from '../../assets/ramb1.jpg';
 import image2 from '../../assets/ramb2.jpg';
 import image3 from '../../assets/ramb3.jpg';
+import curve from '../../assets/shape.png'
 import LearnMore from '../../assets/icons/LearnMore';
 import { useNavigate } from 'react-router-dom';
 
@@ -51,15 +52,27 @@ function Stories() {
   return (
     <div className='container text-font' id='activities'>
       <div className='row'>
-        <h5 className='text-center h6 mt-4'>STORIES</h5>
-        <p className='h3 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></p>
+        <h5 className='text-center h6 mt-4 mb-3'>Stories</h5>
+        {/* <p className='h3 text-center mb-4 pb-4 fw-bold mt-2'>Read Our <span className='border px-2 heading-color'>Blog</span></p> */}
+        <p className='h2 text-center mb-4 fw-bolder'>
+          Read <span className='heading-color'><span> Our Blogs</span>
+          <img
+                      className='d-block mt-1'
+                      src={curve}
+                      
+                      alt="Headline curve"
+                      style={{ width: '200px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '600px'}}
+              />
+          </span>
+        
+        </p>
 
         <div className='col-lg-4 mt-4'>
           <div className='card border-0 hover-effect card-height'>
             <img src={divs[currentSlide].image} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
               <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
-              <p className='text-center text-font-size'>{divs[currentSlide].description}</p>
+              <p className='text-center team-font-size'>{divs[currentSlide].description}</p>
               <div  onClick={()=>navigate("/article")} className='d-flex justify-content-center'>
 
                 <LearnMore />

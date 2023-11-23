@@ -5,10 +5,13 @@ import hero from '../../assets/heroo.png'
 function Bio() {
   return (
     <div className='container mt-4 pt-4 text-font' id='about'>
-        <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
+        <div className='row flex-lg-row d-flex justify-content-center g-5 py-5'>
           <p className='h6 text-center'>Why Us?</p>
-        <div className='col-lg-6'>
-            <p className='fw-bold mb-4 h2'>We Provide You <span className='heading-color'> The Best 
+          <div className='col-10 col-sm-8 col-lg-6 blob2 rounded-3'>
+
+          </div>
+          <div className='col-lg-6 ms-5'>
+            <p className='fw-bold mb-4 h2 mt-5 pt-5'>We Provide You <span className='heading-color'> The Best 
                <img
                       className='d-block'
                       src={curve}
@@ -35,9 +38,7 @@ function Bio() {
             </div>
             <a className='btn btn-outline-secondary ms-4 px-5 py-2 mt-3 button-background text-font-size' href='#'>Learn More</a>
         </div>
-        <div className='col-10 col-sm-8 col-lg-6 pt-4 blob2'>
 
-        </div>
 
   </div>
  

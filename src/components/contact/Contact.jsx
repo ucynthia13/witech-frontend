@@ -40,17 +40,17 @@ function Contact() {
                     </div>
                     <div className='col-2'>
                         <ul className='list-group list-unstyled ms-5 my-5'>
-                            <li className='fw-bold mb-3 h5'>Partnership</li>
-                            <li className='mb-3 text-font-size'>Schools</li>
-                            <li className='mb-3 text-font-size'>Branding</li>
+                            <li className='fw-bold mb-3 h5'>About</li>
+                            <li className='mb-3 text-font-size'>Our Projects</li>
+                            <li className='mb-3 text-font-size'>Careers</li>
                            
                         </ul>
                     </div>
                     <div className='col-4'>
                         <ul className='list-group list-unstyled ms-5 my-5'>
-                            <li className='fw-bold mb-3 h5'>Partnership</li>
-                            <li className='mb-3 text-font-size'>Schools</li>
-                            <li className='mb-3 text-font-size'>Branding</li>
+                            <li className='fw-bold mb-3 h5'>Support</li>
+                            <li className='mb-3 text-font-size'>Support Request</li>
+                            <li className='mb-3 text-font-size'>Contact </li>
                             
                         </ul>
                     </div>
