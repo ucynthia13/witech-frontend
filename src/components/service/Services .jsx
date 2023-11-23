@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import image2 from '../../assets/image2.jpg';
+import curve from '../../assets/shape.png'
 import LearnMore from '../../assets/icons/LearnMore';
 import services from '../../assets/data/services';
 
@@ -9,12 +10,22 @@ function Services() {
   const [service, setService] = useState(services);
 
   return (
-    <div className='container mt-4 text-font'>
+    <div className='container mt-5 pt-2 text-font'>
       <div className='row'>
-        <h6 className='text-center mt-5'>Services</h6>
-        <p className='h3 text-center mb-4 pb-4 fw-bold horizontal-line'>
-          Our <span className='heading-color'>Special </span>Services
+        {/* <h6 className='text-center mt-5'>Services</h6> */}
+        <p className='h2 text-center mb-4 fw-bold'>
+          Our <span className='heading-color'><span> Services</span>
+          <img
+                      className='d-block mt-1'
+                      src={curve}
+                      
+                      alt="Headline curve"
+                      style={{ width: '150px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '600px'}}
+              />
+          </span>
+        
         </p>
+        
 
         {service.map((service, index) => (
           <div className='col-lg-4 mt-4' key={index}>

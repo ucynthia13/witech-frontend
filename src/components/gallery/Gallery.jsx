@@ -15,7 +15,7 @@ function Gallery() {
     const [currentSlide, setCurrentSlide ] = useState(imageSet1)
 
   return (
-    <div className='container text-font mt-5 pt-4' id='gallery'>
+    <div className='container text-font mt- pt-' id='gallery'>
         <div className='row'>
             <p className='h3 fw-bold'>Explore<span className='d-block mt-2 heading-color'>Full Gallery</span>
             <img

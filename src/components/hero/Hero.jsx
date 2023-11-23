@@ -12,13 +12,13 @@ function Hero() {
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6'>
           <div class="mt-12 mt-lg-0 position-relative">
-            <div class="position-absolute top-0 start-0 translate-middle  d-none d-md-block">
-              {/* <img src={graphics1} alt="graphics-2" style={{ width: '180px', height: '180px' }} className='mt-5'></img> */}
-            </div>
-              <img src={hero} alt="online course" className="img-fluid rounded-4 z-1 position-relative " style={{ width: '580px', height: '450px' }}></img>
-            <div class="position-absolute top-100 start-100 translate-middle d-none d-md-block">
-              {/* <img src={graphics2} alt="graphics-1" style={{ width: '180px', height: '180px' }} ></img> */}
-            </div>
+            {/* <div class="position-absolute top-0 start-0 translate-middle  d-none d-md-block">
+              <img src={graphics1} alt="graphics-2" style={{ width: '180px', height: '180px' }} className='mt-5'></img>
+            </div> */}
+              <img src={hero} alt="online course" className="img-fluid rounded-4 z-1 position-relative "></img>
+            {/* <div class="position-absolute top-100 start-100 translate-middle d-none d-md-block">
+              <img src={graphics2} alt="graphics-1" style={{ width: '180px', height: '180px' }} ></img>
+            </div> */}
 
           </div>  
         </div>
@@ -34,7 +34,7 @@ function Hero() {
                       
                       alt="Headline curve"
                       style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)' }}
-                    />
+                    ></img>
                   </span>Tomorrow's Generation
                   </p>    
             </div>

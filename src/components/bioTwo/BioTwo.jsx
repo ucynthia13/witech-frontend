@@ -46,12 +46,9 @@ function BioTwo() {
   return (
     <div className="container mt-5 text-font">
       <style>{styles}</style>
-      <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div className="col-10 col-sm-8 col-lg-6 blob3">
-          
-        </div>
-        <div className="col-10 col-sm-8 col-lg-6">
-          <p className="fw-bold h2 mb-5">
+      <div className="row flex-lg-row align-items-center g- py-5">
+        <div className="col-10 col-sm-8 col-lg-6 mx-4">
+          <p className="fw-bold h2 mb-5 ">
             Mentoring 
             <span className=""> Our Students In A</span> 
               <span className="heading-color d-block mt-4">3-Part Process</span> 
@@ -86,6 +83,9 @@ function BioTwo() {
             </div>
           </div>
         </div>
+        <div className="col-10 col-sm-8 col-lg-6 blob3 rounded-3">
+          
+          </div>
       </div>
     </div>
   );
