@@ -17,7 +17,7 @@ function Bio() {
                       src={curve}
                       
                       alt="Headline curve"
-                      style={{ width: '140px', height: 'auto', transform: 'rotate(4deg)', marginLeft: '260px'}}
+                      style={{ width: '170px', height: 'auto', transform: 'rotate(4deg)', marginLeft: '250px'}}
                 />
                </span>
                <span className='mt-2 d-block'>

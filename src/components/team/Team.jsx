@@ -6,6 +6,7 @@ import ruth from '../../assets/team/NKUBITOYIMANZIRuth.jpeg'
 import igor from '../../assets/team/BISIZIMUHIREIghor.jpeg'
 import divine from '../../assets/team/INGABIREDivine.jpeg'
 import regis from '../../assets/team/NDIZIHIWERegis.jpeg'
+import iris from '../../assets/team/NGABOIris.jpeg'
 
 
 function Team() {
@@ -23,7 +24,7 @@ function Team() {
                       src={curve}
                       
                       alt="Headline curve"
-                      style={{ width: '150px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '350px'}}
+                      style={{ width: '170px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '330px'}}
               />
           </span>
         
@@ -37,13 +38,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={aline} alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Aline Niyomungeli</h6>
               <p class=" mb-3 heading-color">CEO</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services also our customer services</p>
+              <p className='team-font-size'>Passionate leader with a focus on delivering exceptional results. You can relay on our amazing features list and also our customer services also our customer services</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -61,13 +62,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={ruth} alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Nkubitoyimanzi Ruth</h6>
               <p class="heading-color">CTO</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services also our customer services</p>
+              <p className='team-font-size'>Innovative Chief Technology Officer dedicated to driving technological advancements and ensuring excellence in our services.</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -85,13 +86,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={divine} alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Ingabire Divine</h6>
               <p class="subtitle mb-3 heading-color">Developer</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services also our customer services</p>
+              <p className='team-font-size'>Creative developer contributing to the success of our projects. You can relay on our amazing features list and also our customer services also our customer services</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -109,13 +110,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={cynthia} alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Cynthia Umwali</h6>
               <p class="subtitle mb-3 heading-color">COO</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services</p>
+              <p className='team-font-size'>Strategic Chief Operating Officer committed to operational excellence and providing top-notch customer services.</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -132,13 +133,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row ms-5 ps-4 ">
           <div class="col-md-12 ">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={igor} alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Bisizi Ighor</h6>
               <p class="subtitle mb-3 heading-color">CTO</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services</p>
+              <p className='team-font-size'>Results-driven Chief Technology Officer focused on leveraging technology for our continued success. </p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -157,13 +158,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row ms-5 ps-4">
           <div class="col-md-12 ">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={regis} alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Ndizihiwe Regis</h6>
               <p class="subtitle mb-3 heading-color">CTO</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services</p>
+              <p className='team-font-size'>Experienced Chief Technology Officer ensuring the technological backbone of our organization remains robust</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -182,13 +183,13 @@ function Team() {
         {/* <!-- Row --> */}
         <div class="row ms-5 ps-4">
           <div class="col-md-12">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+            <img src={iris}alt="wrapkit" class="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
               <h6 class="mt-4 mb-0 fw-bold">Ngabo Iris</h6>
               <p class="subtitle mb-3 heading-color">CTO</p>
-              <p className='team-font-size'>You can relay on our amazing features list and also our customer services</p>
+              <p className='team-font-size'>Innovative Chief Technology Officer dedicated to driving technological advancements and ensuring excellence.</p>
               <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>

@@ -20,7 +20,7 @@ function Services() {
                       src={curve}
                       
                       alt="Headline curve"
-                      style={{ width: '150px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '600px'}}
+                      style={{ width: '180px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '600px'}}
               />
           </span>
         

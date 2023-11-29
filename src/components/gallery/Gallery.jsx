@@ -17,12 +17,12 @@ function Gallery() {
   return (
     <div className='container text-font mt- pt-' id='gallery'>
         <div className='row'>
-            <p className='h3 fw-bold'>Explore<span className='d-block mt-2 heading-color'>Full Gallery</span>
+            <p className='h3 fw-bold'>Explore<span className='d-block mt-2 mb-1 heading-color'>Full Gallery</span>
             <img
-                      className='d-block mb-4'
+                      className='d-block mb-5'
                       src={curve}                 
                       alt="Headline curve"
-                      style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
+                      style={{ width: '200px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
               />
             </p> 
 
