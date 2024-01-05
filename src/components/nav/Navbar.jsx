@@ -31,7 +31,7 @@ function Navbar() {
                 <li className="nav-item">
                     <a className="nav-link ms-4 me-5 pe-4 link-with-underline" href="#contact">Contact</a>
                 </li>
-                <button className='btn btn-outline-secondary rounded-pill mx-4 mb-2 px-5 button-background'>Join Us</button>
+                <button className='btn btn-outline-secondary rounded-pill mx-5 mb-2 px-5 button-background'>Join Us</button>
             </ul>
         </div>
     </nav>
