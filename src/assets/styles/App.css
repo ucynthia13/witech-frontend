@@ -135,6 +135,31 @@
 .team2{
   margin-left: 99px;
 }
-/* App.css */
 
-  
+/* Services.css */
+
+/* Add your global styles here */
+
+.curve-image {
+  /* Initial styling for larger screens */
+  width: 180px;
+  height: auto;
+  transform: rotate(3deg);
+  margin-left: 600px;
+}
+
+@media (max-width: 194px) {
+  /* Media query for screens smaller than 194px */
+  .curve-image {
+    margin-left: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 770px) {
+  /* Media query for screens smaller than 770px */
+  .curve-image {
+    margin-left: 300px;
+    width: 100px;
+  }
+}
