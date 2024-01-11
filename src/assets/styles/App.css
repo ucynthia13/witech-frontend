@@ -159,7 +159,18 @@
 @media (max-width: 770px) {
   /* Media query for screens smaller than 770px */
   .curve-image {
-    margin-left: 300px;
+    margin-left: 200px;
     width: 100px;
   }
+  
 }
+
+@media (max-width: 770px) {
+  /* Media query for screens smaller than 770px */
+  .curve-image {
+    margin-left: 200px;
+    width: 100px;
+  }
+  
+}
+

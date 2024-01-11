@@ -20,7 +20,6 @@ function Services() {
                 className='d-block mt-1 curve-image'
                 src={curve}
                 alt='Headline curve'
-                
               />
             </span>
           </span>
