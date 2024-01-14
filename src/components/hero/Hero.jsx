@@ -21,18 +21,7 @@ function Hero() {
           <div className='lc-block mb-3'>
             <div editable='rich'>
               <p className='fw-bold display-5 mb-4 mt-2'>
-                <span className='heading-color'>Time To </span>
-                <span className=''>
-                  {' '}
-                  Empowering
-                  <img
-                    className='d-block text-end'
-                    src={curve}
-                    alt='Headline curve'
-                    style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)' }}
-                  ></img>
-                </span>
-                Tomorrow's Generation
+                <span className=''><span className='heading-color underlined'>Time To </span><span className=''>Empowering</span> <span className='d-block mt-2'>Tomorrow's Generation</span> </span>
               </p>
             </div>
           </div>
