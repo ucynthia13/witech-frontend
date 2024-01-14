@@ -20,7 +20,7 @@ function Hero() {
           <div className='lc-block mb-3'>
             <div editable='rich'>
               <p className='fw-bold display-5 mb-3 mt-5'>
-                <span className=''><span className='heading-color underlined'>Time To </span><span className=''>Empowering</span> <span className='d-block mt-2'>Tomorrow's Generation</span> </span>
+                <span className=''><span className='heading-color underlined'>Time To </span><span className=''>Empowering</span> <span className='d-block mt-3'>Tomorrow's Generation</span> </span>
               </p>
             </div>
           </div>

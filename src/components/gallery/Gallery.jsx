@@ -14,6 +14,14 @@ function Gallery() {
 
     const [currentSlide, setCurrentSlide ] = useState(imageSet1)
 
+    const redirectToLink = () => {
+      const newWindow = window.open('https://photos.app.goo.gl/TEiTNqB6zaBe94f4A', '_blank')
+      if(newWindow) {
+        newWindow.opener= null
+      }
+    }
+    
+
   return (
     <div className='container text-font mt- pt-' id='gallery'>
         <div className='row'>
@@ -32,7 +40,7 @@ function Gallery() {
         </div>
         <div className='row'>
         <div className='col-lg-12 mt-3 text-end'> 
-          <button className='btn btn-secondary rounded-circle button-background me-3'>
+          <button className='btn btn-secondary rounded-circle button-background me-3' onClick={redirectToLink}>
             <More />
           </button>
         </div>
