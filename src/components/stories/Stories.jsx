@@ -54,14 +54,7 @@ function Stories() {
       <div className='row'>
         <h5 className='text-center h6 mt-4 mb-3'>Stories</h5>
         <p className='h2 text-center mb-4 fw-bolder'>
-          Read <span className='heading-color'><span> Our Blogs</span>
-          <img
-                      className='d-block mt-1'
-                      src={curve}
-                      
-                      alt="Headline curve"
-                      style={{ width: '200px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '600px'}}
-              />
+          Read <span className='heading-color'><span className='underlined'> Our Blogs</span>
           </span>
         
         </p>

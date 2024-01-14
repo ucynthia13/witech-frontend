@@ -11,16 +11,9 @@ function Bio() {
 
           </div>
           <div className='col-lg-6 ms-5'>
-            <p className='fw-bold mb-4 h2 mt-5 pt-5'>We Provide You <span className='heading-color'> The Best 
-               <img
-                      className='d-block'
-                      src={curve}
-                      
-                      alt="Headline curve"
-                      style={{ width: '170px', height: 'auto', transform: 'rotate(4deg)', marginLeft: '250px'}}
-                />
+            <p className='fw-bold mb-4 h2 mt-5 pt-5'>We Provide You <span className='heading-color underlined'> The Best 
                </span>
-               <span className='mt-2 d-block'>
+               <span className='mt-3 d-block'>
                 Training To Students
                 </span>
             </p>
