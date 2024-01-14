@@ -24,14 +24,9 @@ function Team() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-7 text-center">
-            <p className='h2 text-center mb-2 fw-bolder'>
-              Meet <span className='heading-color'><span> Our Team</span>
-              <img
-                className='d-block mt-1'
-                src={curve}
-                alt="Headline curve"
-                style={{ width: '170px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '330px'}}
-              />
+            <p className='h2 text-center mb-4 fw-bolder'>
+              Meet <span className='heading-color'><span className='underlined'> Our Team</span>
+
               </span>
             </p>
             <p className='text-center text-font-size mb-5 team-font-size'>This letter confirms that Aline Niyomungeli <span className='d-block'>was sponsored by Imbuto Foundation during her seco</span></p>

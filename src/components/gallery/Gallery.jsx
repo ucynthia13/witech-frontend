@@ -17,13 +17,9 @@ function Gallery() {
   return (
     <div className='container text-font mt- pt-' id='gallery'>
         <div className='row'>
-            <p className='h3 fw-bold'>Explore<span className='d-block mt-2 mb-1 heading-color'>Full Gallery</span>
-            <img
-                      className='d-block mb-5'
-                      src={curve}                 
-                      alt="Headline curve"
-                      style={{ width: '200px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
-              />
+            <p className='h3 fw-bold mb-5'>
+              Explore
+              <span className='mt-2 d-block mb-1 heading-color'> <span className='underlined'>Full Galllery</span></span>         
             </p> 
 
             {currentSlide.map((image, index) => (

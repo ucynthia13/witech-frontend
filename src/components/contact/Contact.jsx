@@ -8,22 +8,15 @@ function Contact() {
     <div className='container text-font mt-5 mb-3 pt-5' id='contact'>
         <div className='row'>
             <div className='col-12 text-center'>
-                <p className='fw-bold h3'> Step Into The Future Before Others?<span className='d-block mt-3 heading-color'>If Yes Let's Go !</span>
-                <img
-                      className='d-block'
-                      src={curve}
-                      
-                      alt="Headline curve"
-                      style={{ width: '250px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '500px'}}
-              />
+                <p className='fw-bold h3'> Step Into The Future Before Others?<span className='d-block mt-3 heading-color '><span className='underlined'>If Yes Let's Go!</span></span>
                 </p>
                 <a className='btn btn-outline-secondary px-5 py-3 mt-5 button-background' href='#'>Request Early Access</a>
             </div>
 
             <div className='col-12 mt-5'>
 
-                <div className='row'>
-                    <div className='col-4 my-5'>
+                <div className='row my-5'>
+                    <div className='col-4 '>
                         <label htmlFor='logo'><span className='fw-bold h3'><img src={logo} alt='logo' style={{ width: '100px', height: 'auto'}} ></img></span> <span className='d-block text-font-size ms-2 my-2'>WithinTech</span></label>
                         <div className='d-flex'>
                             <input className='form-control form-control-lg me-1'></input>
@@ -31,7 +24,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className='col-2'>
-                        <ul className='list-group list-unstyled ms-5 my-5'>
+                        <ul className='list-group list-unstyled ms-4 '>
                             <li className='fw-bold mb-3 h5'>Partnership</li>
                             <li className='mb-3 text-font-size'>Schools</li>
                             <li className='mb-3 text-font-size'>Branding</li>
@@ -39,7 +32,7 @@ function Contact() {
                         </ul>
                     </div>
                     <div className='col-2'>
-                        <ul className='list-group list-unstyled ms-5 my-5'>
+                        <ul className='list-group list-unstyled ms-4 '>
                             <li className='fw-bold mb-3 h5'>About</li>
                             <li className='mb-3 text-font-size'>Our Projects</li>
                             <li className='mb-3 text-font-size'>Careers</li>
@@ -47,7 +40,7 @@ function Contact() {
                         </ul>
                     </div>
                     <div className='col-4'>
-                        <ul className='list-group list-unstyled ms-5 my-5'>
+                        <ul className='list-group list-unstyled ms-4 '>
                             <li className='fw-bold mb-3 h5'>Support</li>
                             <li className='mb-3 text-font-size'>Support Request</li>
                             <li className='mb-3 text-font-size'>Contact </li>

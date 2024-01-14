@@ -49,16 +49,7 @@ function BioTwo() {
       <div className="row flex-lg-row align-items-center g- py-5">
         <div className="col-10 col-sm-8 col-lg-6 mx-4">
           <p className="fw-bold h2 mb-5 ">
-            Mentoring 
-            <span className=""> Our Students In A</span> 
-              <span className="heading-color d-block mt-4">3-Part Process</span> 
-              <img
-                      className='d-block'
-                      src={curve}
-                      
-                      alt="Headline curve"
-                      style={{ width: '210px', height: 'auto', transform: 'rotate(3deg)', marginLeft: '0px'}}
-              />
+            Mentoring Our Students In A <span className="heading-color mt-4 d-block"><span className='underlined'>3-Part Process</span></span>            
           </p>
           <div className="">
             <div className="mb-3">
