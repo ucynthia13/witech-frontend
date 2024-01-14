@@ -18,8 +18,8 @@ function Navbar() {
       >
         <span className='navbar-toggler-icon'></span>
       </button>
-      <div className='collapse navbar-collapse team-font-size' id='navbarNav'>
-        <ul className='navbar-nav fw-bold'>
+      <div className='collapse navbar-collapse team-font-size justify-content-center' id='navbarNav'>
+        <ul className='navbar-nav fw-bold '>
           <li className='nav-item active'>
             <a className='nav-link ms-4 me-4 link-with-underline' href='#'>
               Home

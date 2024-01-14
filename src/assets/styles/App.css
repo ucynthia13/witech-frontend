@@ -25,16 +25,16 @@
   border-color: rgb(116, 22, 198);
 }
 
-  .hover-effect {
+.hover-effect {
     transition: transform 0.3s, box-shadow 0.2s; 
     box-shadow: 0 2px 2px 2px rgba(103, 94, 111, 0.1);
-  }
+}
   
-  .hover-effect:hover {
+.hover-effect:hover {
     transform: scale(1.035); 
     box-shadow: 0 2px 2px 2px rgba(103, 94, 111, 0.1);
-  }
-  .blob2{
+}
+.blob2{
     background-image: url('../../assets/IMG_1922.JPG');
     height: 560px;
     width: 500px;
@@ -51,7 +51,7 @@
     }
   }
   
-  .blob3 {
+.blob3 {
     position: relative;
     background-image: url('../../assets/IMG_1925.JPG');
     width: 500px;
@@ -70,37 +70,37 @@
     width: 100%;
     border-left: 2px solid #000; 
     margin-right: 10px; 
-  }
+}
 
-  .link-with-underline {
+.link-with-underline {
     position: relative;
     display: inline-block;
     margin-bottom: 10px; 
-  }
+}
   
-  .link-with-underline::before {
+.link-with-underline::before {
     content: '';
     position: absolute;
     bottom: -5px; 
     left: 0;
     width: 0%;
-    height: 2px;
-    background-color: purple; 
+    height: 1px;
+    background-color: #ffa500; 
     transition: width 0.3s; 
-  }
+}
   
-  .link-with-underline:hover::before {
+.link-with-underline:hover::before {
     width: 100%; 
-  }
+}
 
   
-  .horizontal-line {
+.horizontal-line {
     overflow: hidden;
     text-align: center;
-  }
+}
   
-  .horizontal-line:before,
-  .horizontal-line:after {
+.horizontal-line:before,
+.horizontal-line:after {
     background-color: rgb(116, 22, 198);
     content: "";
     display: inline-block;
@@ -110,17 +110,17 @@
     width: 10%;
     font-weight: bold;
     padding: 0.7px;
-  }
+}
   
-  .horizontal-line:before {
+.horizontal-line:before {
     right: 0.5em;
     margin-left: -50%;
-  }
+}
   
-  .horizontal-line:after {
+.horizontal-line:after {
     left: 0.5em;
     margin-right: -50%;
-  }
+}
 
 
 .horizontal-border {
@@ -128,17 +128,19 @@
   padding-left: 20px; 
 }
 
-.card-height {
+  .card-height {
   width: 400px;
-}
+  }
 
 .team2{
   margin-left: 99px;
 }
 
+
 .underlined {
   position: relative;
 }
+
 .underlined:after {
   content: "";
   position: absolute;
@@ -146,7 +148,9 @@
   left: 0;
   height: 7px;
   width: 100%;
-  border: solid 3.2px #ffa500;
+  border: solid 4px #ffa500;
   border-color: #ffa500 transparent transparent transparent;
   border-radius: 100%;
+  transform: skew(-80deg);
+  margin-top: 5px;
 }

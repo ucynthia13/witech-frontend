@@ -13,15 +13,7 @@ function Services() {
         <p className='h2 text-center mb-4 fw-bold'>
           Our{' '}
           <span className='heading-color underlined'>
-            {/* <span > */}
-              {' '}
               Services
-              {/* <img
-                className='d-block mt-1 curve-image'
-                src={curve}
-                alt='Headline curve'
-              /> */}
-            {/* </span> */}
           </span>
         </p>
 
