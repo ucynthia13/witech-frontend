@@ -11,7 +11,7 @@ function Partners() {
           <div className='col-sm-6 col-md-4 col-lg-3 mb-4'>
             <img
               src={nesa}
-              className='mx-4 img-fluid'
+              className='mx-4 img-fluid '
               style={{ maxWidth: '300px', maxHeight: '100px' }}
               alt='nesa'
             ></img>

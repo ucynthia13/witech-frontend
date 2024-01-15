@@ -84,9 +84,11 @@
     bottom: -5px; 
     left: 0;
     width: 0%;
-    height: 1px;
+    height: 2px;
     background-color: #ffa500; 
-    transition: width 0.3s; 
+    border-radius: 50%;
+    transform: skew(-20deg) scaleY(0.9);
+    transition: width 0.5s; 
 }
   
 .link-with-underline:hover::before {
@@ -128,14 +130,9 @@
   padding-left: 20px; 
 }
 
-  .card-height {
-  width: 400px;
-  }
-
 .team2{
   margin-left: 99px;
 }
-
 
 .underlined {
   position: relative;
@@ -150,7 +147,7 @@
   width: 100%;
   border: solid 4px #ffa500;
   border-color: #ffa500 transparent transparent transparent;
-  border-radius: 100%;
-  transform: skew(-80deg);
+  border-radius: 50%; /* Adjust the border-radius value for the desired curvature */
+  transform: skew(-80deg) rotate(1.3deg) scaleY(0.9); /* Adjust the skew, rotate, and scaleY values as needed */
   margin-top: 5px;
 }
