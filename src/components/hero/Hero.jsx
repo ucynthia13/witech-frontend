@@ -13,6 +13,7 @@ function Hero() {
               src={hero}
               alt='online course'
               className='img-fluid rounded-2 position-relative '
+              loading='lazy'
             ></img>
           </div>
         </div>

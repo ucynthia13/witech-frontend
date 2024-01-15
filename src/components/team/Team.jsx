@@ -37,7 +37,7 @@ function Team() {
             <div className="col-lg-3 mb-4" key={index}>
               <div className="row">
                 <div className="col-md-12 text-center">
-                  <img src={member.image} alt={member.name} className="img-fluid rounded-circle" style={{ width: '200px', height: '200px' }}/>
+                  <img src={member.image} alt={member.name} className="img-fluid rounded-circle" style={{ width: '200px', height: '205px' } } loading='lazy'/>
                 </div>
                 <div className="col-md-12 text-center">
                   <div className="pt-2">
