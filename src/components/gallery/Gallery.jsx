@@ -33,7 +33,7 @@ function Gallery() {
             {currentSlide.map((image, index) => (
             <div className='hover col-lg-4' key={index}>
                 <div className='card mb-3 hover-effect'>
-                    <img src={image} className='card-img-top img-fluid' alt={`Image ${index + 1}`} style={{ width: '', height: ''}} ></img>
+                    <img src={image} className='card-img-top img-fluid' alt={`Image ${index + 1}`} style={{ width: '', height: ''}} loading='lazy'></img>
                 </div>
             </div>
             ))}

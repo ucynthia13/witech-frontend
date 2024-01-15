@@ -51,7 +51,7 @@ function Stories() {
 
         <div className='col-lg-4 mt-4'>
           <div className='card border-0 hover-effect card-height'>
-            <img src={image1} className='img-fluid card-img-top' alt='students' />
+            <img src={image1} className='img-fluid card-img-top' alt='students' loading='lazy'/>
             <div className='card-body'>
               <h5 className='card-title text-center fw-bold my-2'>{divs[0].title}</h5>
               <p className='text-center team-font-size'>{divs[0].description}</p>
