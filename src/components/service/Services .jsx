@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import image2 from '../../assets/image2.jpg';
-import curve from '../../assets/shape.png';
 import LearnMore from '../../assets/icons/LearnMore';
 import services from '../../assets/data/services';
 

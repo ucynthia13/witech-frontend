@@ -9,46 +9,36 @@ import { useNavigate } from 'react-router-dom';
 function Stories() {
   const navigate = useNavigate();
 
+  const redirectToMoreBlogs = () => {
+    const newWindow = window.open('https://photos.app.goo.gl/TEiTNqB6zaBe94f4A', '_blank')
+    if(newWindow){
+      newWindow.opener = null
+    }
+  }
+
 
   const initialDivs = [
     {
       image: image1,
-      title: 'Training in Schools',
-      description: 'Under the leadership of her excellency the first lady of Rwanda, Mrs. Jeanette Kagame, In 2003, Imbuto Foundation',
+      title: 'Community Learning',
+      description: 'Promoting comprehensive community education, our foundation is committed to fostering a culture of lifelong learning and empowerment.',
     },
     {
       image: image2,
-      title: 'Tutoring Students',
-      description: 'Under the leadership of her excellency the first lady of Rwanda, Mrs. Jeanette Kagame, In 2003, Imbuto Foundation',
+      title: 'Guiding Future Leaders',
+      description: 'Nurturing the potential of tomorrow\'s leaders, our foundation is dedicated to providing mentorship and support for aspiring individuals striving for positive impact.',
     },
     {
       image: image3,
-      title: 'Training Staff Computer',
-      description: 'Under the leadership of her excellency the first lady of Rwanda, Mrs. Jeanette Kagame, In 2003, Imbuto Foundation',
+      title: 'Digital Literacy Advancement',
+      description: 'Leading the charge in advancing digital literacy, our foundation is at the forefront of initiatives that empower individuals to thrive in the digital age.',
     },
   ];
+  
+  
 
   const [divs, setDivs] = useState(initialDivs);
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const nextSlide = () => {
-    const nextIndex = (currentSlide + 1) % divs.length;
-    setCurrentSlide(nextIndex);
-  };
-
-  const prevSlide = () => {
-    const prevIndex = (currentSlide - 1 + divs.length) % divs.length;
-    setCurrentSlide(prevIndex);
-  };
-
-  // useEffect(() => {
-  //   const timer = setInterval(nextSlide, 4000);
-
-  //   return () => {
-  //     clearInterval(timer);
-  //   };
-  // }, [currentSlide]);
-
+ 
   return (
     <div className='container text-font' id='activities'>
       <div className='row'>
@@ -63,8 +53,8 @@ function Stories() {
           <div className='card border-0 hover-effect card-height'>
             <img src={image1} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
-              <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
-              <p className='text-center team-font-size'>{divs[currentSlide].description}</p>
+              <h5 className='card-title text-center fw-bold my-2'>{divs[0].title}</h5>
+              <p className='text-center team-font-size'>{divs[0].description}</p>
               <div  onClick={()=>navigate("/article")} className='d-flex justify-content-center'>
 
                 <LearnMore />
@@ -77,8 +67,8 @@ function Stories() {
           <div className='card border-0 hover-effect card-height'>
             <img src={image2} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
-              <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
-              <p className='text-center team-font-size'>{divs[currentSlide].description}</p>
+              <h5 className='card-title text-center fw-bold my-2'>{divs[1].title}</h5>
+              <p className='text-center team-font-size'>{divs[1].description}</p>
               <div className='d-flex justify-content-center'>
                 <LearnMore />
               </div>
@@ -90,8 +80,8 @@ function Stories() {
           <div className='card border-0 hover-effect card-height'>
             <img src={image3} className='img-fluid card-img-top' alt='students' />
             <div className='card-body'>
-              <h5 className='card-title text-center fw-bold my-2'>{divs[currentSlide].title}</h5>
-              <p className=' text-center team-font-size'>{divs[currentSlide].description}</p>
+              <h5 className='card-title text-center fw-bold my-2'>{divs[2].title}</h5>
+              <p className=' text-center team-font-size'>{divs[2].description}</p>
               <div className='d-flex justify-content-center'>
                 <LearnMore />
               </div>
@@ -101,7 +91,7 @@ function Stories() {
        </div>
 
         <div className='col-lg-12 mt-4 text-end'> 
-          <button className='btn btn-secondary rounded-circle button-background me-4'>
+          <button className='btn btn-secondary rounded-circle button-background me-4' onClick={redirectToMoreBlogs}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
               </svg>

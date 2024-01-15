@@ -15,14 +15,19 @@ function LearnMore() {
     border-color: rgb(116, 22, 198);
   }
   `
+
+  const redirectToBlog = () => {
+      const newWindow = window.open('https://photos.app.goo.gl/TEiTNqB6zaBe94f4A', '_blank')
+      if(newWindow){
+        newWindow.opener = null
+      }
+  }
   return (
    
-    <a className='btn btn-outline-secondary mb-3 px-4 rounded button-background team-font-size' href='#'>
-
-    
+    <button className='btn btn-outline-secondary mb-3 px-4 rounded button-background team-font-size' onClick={redirectToBlog}>
       <style>{styles}</style>
     Learn More
-  </a>
+    </button>
   )
 }
 
