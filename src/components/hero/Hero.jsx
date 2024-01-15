@@ -8,7 +8,7 @@ function Hero() {
     <div className='container text-font'>
       <div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
         <div className='col-lg-6'>
-          <div class='mt-lg-0 position-relative'>
+          <div className='mt-lg-0 position-relative'>
             <img
               src={hero}
               alt='online course'
