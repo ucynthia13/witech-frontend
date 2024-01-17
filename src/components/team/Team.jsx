@@ -11,7 +11,7 @@ import MelissaImage from '../../assets/team/KABALISAMUGISHAMelissa.JPG';
 
 const teamMembers = [
   { name: 'Aline Niyomungeli', role: 'CEO', image: AlineImage, description: 'Passionate leader with a focus on delivering exceptional results.' },
-  { name: 'Kabalisa Melissa', role: 'CTO', image: MelissaImage, description: 'Innovative Chief Technology Officer dedicated to driving technological advancements and ensuring excellence in our services.' },
+  { name: 'Kabalisa Melissa', role: 'Innovation Lead', image: MelissaImage, description: 'Orchestrating creative solutions and driving change by spearheading ideation and implementation strategies within our team' },
   { name: 'Ingabire Divine', role: 'CTO', image: DivineImage, description: 'Creative developer contributing to the success of our projects.' },
   { name: 'Cynthia Umwali', role: 'COO', image: CynthiaImage, description: 'Strategic Chief Operating Officer committed to operational excellence and providing top-notch customer services.' },
   { name: 'Bisizi Ighor', role: 'CTO', image: IgorImage, description: 'Results-driven Chief Technology Officer focused on leveraging technology for our continued success.' },
@@ -39,7 +39,6 @@ function Team() {
             <div className="col-lg-3 mb-4" key={index}>
               <div className="row">
               <div className="col-md-12 ms-5 rounded-circle" style={{ backgroundImage: `url(${member.image})`, backgroundSize: 'cover',width: '200px', height: '205px' }}>
-                  {/* <img src={member.image} alt={member.name} className="img-fluid rounded-circle" style={{ width: '200px', height: '205px' } } loading='lazy'/> */}
                 </div>
                 <div className="col-md-12 text-center">
                   <div className="pt-2">
