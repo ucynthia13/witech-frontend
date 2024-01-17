@@ -41,16 +41,9 @@
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    animation: bio-animate 5s ease-in-out infinite;
     box-shadow: 0 1px 1px 1px rgba(103, 94, 111, 0.1);
     
 }
-
-@keyframes bio-animate {
-    0%, 100% {
-      border-radius: 0%;
-    }
-  }
   
 .blob3 {
     position: relative;
@@ -60,7 +53,6 @@
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    animation: bio-animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     box-shadow: 0 1px 1px 1px rgba(103, 94, 111, 0.1);
 }
