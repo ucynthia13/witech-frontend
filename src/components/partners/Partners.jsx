@@ -9,7 +9,7 @@ function Partners() {
     <div className='container mt-'>
       <div className='row mt-'>
         <div className='col-12 d-flex justify-content-center ms-4'>
-          <div className='col-sm-6 col-md-4 col-lg-3 mb-4'>
+          {/* <div className='col-sm-6 col-md-4 col-lg-3 mb-4'>
             <img
               src={nesa}
               className='mx-4 img-fluid '
@@ -17,7 +17,7 @@ function Partners() {
               alt='nesa'
               loading='lazy'
             ></img>
-          </div>
+          </div> */}
           <div className='col-sm-6 col-md-4 col-lg-3 mb-4'>
             <img
               src={rdb}
