@@ -15,6 +15,7 @@ function Gallery() {
     const [currentSlide, setCurrentSlide ] = useState(imageSet1)
 
     const redirectToLink = () => {
+      
       const newWindow = window.open('https://photos.app.goo.gl/TEiTNqB6zaBe94f4A', '_blank')
       if(newWindow) {
         newWindow.opener= null
