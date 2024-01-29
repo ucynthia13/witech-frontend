@@ -36,7 +36,7 @@ function Navbar() {
             </a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link mx-4 link-with-underline' href='#blog'>
+            <a className='nav-link mx-4 link-with-underline' href='./article'>
               Blog
             </a>
           </li>
