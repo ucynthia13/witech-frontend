@@ -2,6 +2,7 @@ import React from 'react';
 import curve from '../../assets/shape.png'
 
 function BioTwo() {
+  
   const styles = `
     .container{
       counter-reset: section;

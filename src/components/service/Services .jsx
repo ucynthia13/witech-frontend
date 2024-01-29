@@ -21,7 +21,7 @@ function Services() {
               <img src={service.image} className='img-fluid card-img-top' alt='students' />
               <div className='card-body'>
                 <h5 className='card-title text-center fw-bold my-2'>{service.title}</h5>
-                <p className='text-center team-font-size'>{service.description}</p>
+                <p className='text-center team-font-size mt-3'>{service.description}</p>
                 <div className='d-flex justify-content-center'>
                   <LearnMore />
                 </div>

@@ -4,10 +4,7 @@ import FooterIcon from '../../assets/icons/FooterIcon'
 import logo from '../../assets/Group 2.png'
 
 function Contact() {
-    //redirect to link
-    const accessToCourse = () => {
-        //page to grant early access
-    }
+
   return (
     <div className='container text-font mt-5 mb-1 pt-5' id='contact'>
         <div className='row'>
@@ -27,8 +24,8 @@ function Contact() {
                             <button className='btn btn-dark px-4 py-3 button-background'>Subscribe!</button>
                         </div>
                     </div>
-                    <div className='col-2'>
-                        <ul className='list-group list-unstyled ms-4 '>
+                    <div className='col-3'>
+                        <ul className='list-group list-unstyled '>
                             <li className='fw-bold mb-3 h5'>Partnership</li>
                             <li className='mb-3 text-font-size'>Schools</li>
                             <li className='mb-3 text-font-size'>Branding</li>
@@ -36,15 +33,15 @@ function Contact() {
                         </ul>
                     </div>
                     <div className='col-2'>
-                        <ul className='list-group list-unstyled ms-4 '>
+                        <ul className='list-group list-unstyled '>
                             <li className='fw-bold mb-3 h5'>About</li>
                             <li className='mb-3 text-font-size'>Our Projects</li>
                             <li className='mb-3 text-font-size'>Careers</li>
                            
                         </ul>
                     </div>
-                    <div className='col-4'>
-                        <ul className='list-group list-unstyled ms-4 '>
+                    <div className='col-3'>
+                        <ul className='list-group list-unstyled ms- '>
                             <li className='fw-bold mb-3 h5'>Support</li>
                             <li className='mb-3 text-font-size'>Support Request</li>
                             <li className='mb-3 text-font-size'>Contact </li>
