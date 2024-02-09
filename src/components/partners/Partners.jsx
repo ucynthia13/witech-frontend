@@ -1,13 +1,13 @@
 import React from 'react';
 
 import rca2 from '../../assets/rca-removebg-preview.png';
-import rdb from '../../assets/rdb-removebg-preview.png';
+import natcom from '../../assets/natcom-removebg-preview.png';
 import sb from '../../assets/sbf-removebg-preview.png'
 
 function Partners() {
   const partnerData = [
-    { src: rca2, maxWidth: '300px', maxHeight: '100px', alt: 'rdb' },
-    { src: rdb, maxWidth: '100px', maxHeight: '100px', alt: 'rca' },
+    { src: rca2, maxWidth: '300px', maxHeight: '100px', alt: 'rca' },
+    { src: natcom, maxWidth: '100px', maxHeight: '100px', alt: 'natcom' },
     { src: sb, maxWidth: '100px', maxHeight: '100px', alt: 'sb' },
   ];
 
