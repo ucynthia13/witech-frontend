@@ -1,6 +1,6 @@
 import image1 from "../ramb2.jpg";
 import image2 from "../ramb3.jpg";
-import image3 from "../IMG_0501.jpg";
+import image3 from "../IMG_1912.JPG";
 
 const services = [
   {
